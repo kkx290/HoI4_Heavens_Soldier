@@ -1,9 +1,14 @@
 state={
-	id=1022
+	id=1049
 	name="STATE_JEJU"
 	provinces={
 		1177 
 	}
+
+	resources={
+		coal = 25.000
+	}
+
 	history={
 		owner = FKR
 		buildings = {

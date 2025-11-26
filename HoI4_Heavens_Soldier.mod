@@ -11,6 +11,6 @@ tags={
 }
 name="Korea - The Heavens Soldiers [Official Version]"
 picture="thumbnail.png"
-supported_version="1.16.*"
+supported_version="1.17.*"
+path="C:/Users/kevin/Documents/Paradox Interactive/Hearts of Iron IV/mod/HoI4_Heavens_Soldier"
 remote_file_id="2315848888"
-path="mod/HoI4_Heavens_Soldier"

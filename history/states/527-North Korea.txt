@@ -3,6 +3,10 @@ state={
 	id=527
 	name="STATE_PYONGAN"
 
+	resources={
+		coal = 16.000
+	}
+
 	history={
 		owner = KOR
 		buildings = {

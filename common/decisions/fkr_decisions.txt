@@ -1081,7 +1081,7 @@ prospect_for_resources = {
 		}	
 	}
 
-	FKR_develop_sector_7_oil_deposits = { #1022
+	FKR_develop_sector_7_oil_deposits = { #1049
 		
 		icon = oil
 
@@ -1093,13 +1093,13 @@ prospect_for_resources = {
 			has_tech = excavation2
 		}
 		highlight_states = {
-			state = 1022
+			state = 1049
 		}
 
 		visible = {
 			has_completed_focus = FKR_sector_7
-			controls_state = 1022
-			1022 = {
+			controls_state = 1049
+			1049 = {
 				NOT = {
 					has_state_flag = sector_7_oil_developed
 				}
@@ -1119,8 +1119,8 @@ prospect_for_resources = {
 			factor = 1
 		}
 		remove_effect = { 
-			1022 = { set_state_flag = sector_7_oil_developed } 
-			1022 = {
+			1049 = { set_state_flag = sector_7_oil_developed } 
+			1049 = {
 				add_resource = {
 					type = oil
 					amount = 72
@@ -3099,295 +3099,442 @@ FKR_future_tech_research_navy = {
 
 FKR_strat_ops_command = {
 
-	FKR_add_army_doc_mobile_warfare = {
+	FKR_add_army_doc_infantry_mastery_training = {
 		icon = generic_army_support
 		allowed = {
 			original_tag = FKR
 		}
 
+		days_remove = 60
+		
+
 		available = {
 			has_army_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_army_experience > 99
+		}
+		custom_cost_text = decision_cost_army_xp_100
+
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_army_doc }
-			NOT = { has_tech = mobile_warfare }
+			has_subdoctrine_in_track = infantry
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			army_experience = -100
-			set_technology = {
-				mobile_warfare = 1
+			add_mastery = {
+				amount = 50
+				track = infantry
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_army_doc
+            	army_experience = -100
 			}
         }
 	}
 
-	FKR_add_army_doc_superior_firepower = {
+	FKR_add_army_doc_support_mastery_training = {
 		icon = generic_army_support
 		allowed = {
 			original_tag = FKR
 		}
 
+		days_remove = 60
+		
+
 		available = {
 			has_army_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_army_experience > 99
+		}
+		custom_cost_text = decision_cost_army_xp_100
+
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_army_doc }
-			NOT = { has_tech = superior_firepower }
+			has_subdoctrine_in_track = support
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			army_experience = -100
-			set_technology = {
-				superior_firepower = 1
+			add_mastery = {
+				amount = 50
+				track = support
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_army_doc
+            	army_experience = -100
 			}
         }
 	}
 
-	FKR_add_army_doc_grand_battle = {
+	FKR_add_army_doc_armor_mastery_training = {
 		icon = generic_army_support
 		allowed = {
 			original_tag = FKR
 		}
 
+		days_remove = 60
+		
+
 		available = {
 			has_army_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_army_experience > 99
+		}
+		custom_cost_text = decision_cost_army_xp_100
+
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_army_doc }
-			NOT = { has_tech = trench_warfare }
+			has_subdoctrine_in_track = armor
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			army_experience = -100
-			set_technology = {
-				trench_warfare = 1
+			add_mastery = {
+				amount = 50
+				track = armor
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_army_doc
+            	army_experience = -100
 			}
         }
 	}
 
-	FKR_add_army_doc_mass_assault = {
+	FKR_add_army_doc_operations_mastery_training = {
 		icon = generic_army_support
 		allowed = {
 			original_tag = FKR
 		}
 
+		days_remove = 60
+		
+
 		available = {
 			has_army_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_army_experience > 99
+		}
+		custom_cost_text = decision_cost_army_xp_100
+
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_army_doc }
-			NOT = { has_tech = mass_assault }
+			has_subdoctrine_in_track = operations
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			army_experience = -100
-			set_technology = {
-				mass_assault = 1
+			add_mastery = {
+				amount = 50
+				track = operations
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_army_doc
+            	army_experience = -100
 			}
         }
 	}
 
-	FKR_add_navy_doc_grand_battlefleet = {
+	FKR_add_navy_doc_submarine_mastery_training = {
 		icon = generic_naval
 		allowed = {
 			original_tag = FKR
 		}
 
+		days_remove = 60
+		
+
 		available = {
 			has_navy_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_navy_experience > 99
+		}
+		custom_cost_text = decision_cost_navy_xp_100
+
+
 		visible = {
 			has_completed_focus = FKR_additional_navy_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_navy_doc }
-			NOT = { has_tech = fleet_in_being }
+			has_subdoctrine_in_track = submarines
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			navy_experience = -100
-			set_technology = {
-				fleet_in_being = 1
+			add_mastery = {
+				amount = 50
+				track = submarines
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_navy_doc
+            	navy_experience = -100
 			}
         }
 	}
 
-	FKR_add_navy_doc_wolfpacks = {
+	FKR_add_navy_doc_screens_mastery_training = {
 		icon = generic_naval
 		allowed = {
 			original_tag = FKR
 		}
 
+		days_remove = 60
+		
+
 		available = {
 			has_navy_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_navy_experience > 99
+		}
+		custom_cost_text = decision_cost_navy_xp_100
+
+
 		visible = {
 			has_completed_focus = FKR_additional_navy_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_navy_doc }
-			NOT = { has_tech = trade_interdiction }
+			has_subdoctrine_in_track = screens
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			navy_experience = -100
-			set_technology = {
-				trade_interdiction = 1
+			add_mastery = {
+				amount = 50
+				track = screens
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_navy_doc
+            	navy_experience = -100
 			}
         }
 	}
 
-	FKR_add_navy_doc_base_strike = {
+	FKR_add_navy_doc_carriers_mastery_training = {
 		icon = generic_naval
 		allowed = {
 			original_tag = FKR
 		}
 
+		days_remove = 60
+		
+
 		available = {
 			has_navy_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_navy_experience > 99
+		}
+		custom_cost_text = decision_cost_navy_xp_100
+
+
 		visible = {
 			has_completed_focus = FKR_additional_navy_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_navy_doc }
-			NOT = { has_tech = base_strike }
+			has_subdoctrine_in_track = carriers
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			navy_experience = -100
-			set_technology = {
-				base_strike = 1
+			add_mastery = {
+				amount = 50
+				track = carriers
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_navy_doc
+            	navy_experience = -100
 			}
         }
 	}
 
-	FKR_add_air_doc_air_superiority = {
-		icon = generic_air
-
+	FKR_add_navy_doc_capital_ships_mastery_training = {
+		icon = generic_naval
 		allowed = {
 			original_tag = FKR
 		}
+
+		days_remove = 60
+		
+
+		available = {
+			has_navy_experience > 99
+		}
+
+		custom_cost_trigger = {
+			has_navy_experience > 99
+		}
+		custom_cost_text = decision_cost_navy_xp_100
+
+
+		visible = {
+			has_completed_focus = FKR_additional_navy_doc
+			has_subdoctrine_in_track = capital_ships
+		}
+
+
+		complete_effect = {
+			add_mastery = {
+				amount = 50
+				track = capital_ships
+			}
+
+			hidden_effect = {
+            	navy_experience = -100
+			}
+        }
+	}
+
+	FKR_add_air_doc_fighter_mastery_training = {
+		icon = generic_air
+		allowed = {
+			original_tag = FKR
+		}
+
+		days_remove = 60
+		
 
 		available = {
 			has_air_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_air_experience > 99
+		}
+		custom_cost_text = decision_cost_air_xp_100
+
+
 		visible = {
-			has_completed_focus = FKR_additional_airforce_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_air_doc }
-			NOT = { has_tech = air_superiority }
+			has_completed_focus =  FKR_additional_airforce_doc
+			has_subdoctrine_in_track = fighter_aircraft
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			air_experience = -100
-			set_technology = {
-				air_superiority = 1
+			add_mastery = {
+				amount = 50
+				track = fighter_aircraft
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_air_doc
+            	air_experience = -100
 			}
         }
 	}
 
-	FKR_add_air_doc_direct_ground_support = {
+	FKR_add_air_doc_strike_mastery_training = {
 		icon = generic_air
-
 		allowed = {
 			original_tag = FKR
 		}
+
+		days_remove = 60
+		
 
 		available = {
 			has_air_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_air_experience > 99
+		}
+		custom_cost_text = decision_cost_air_xp_100
+
+
 		visible = {
-			has_completed_focus = FKR_additional_airforce_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_air_doc }
-			NOT = { has_tech = force_rotation }
+			has_completed_focus =  FKR_additional_airforce_doc
+			has_subdoctrine_in_track = strike_aircraft
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			air_experience = -100
-			set_technology = {
-				force_rotation = 1
+			add_mastery = {
+				amount = 50
+				track = strike_aircraft
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_air_doc
+            	air_experience = -100
 			}
         }
 	}
 
-	FKR_add_air_doc_mass_destruction = {
+	FKR_add_air_doc_medium_mastery_training = {
 		icon = generic_air
-
 		allowed = {
 			original_tag = FKR
 		}
+
+		days_remove = 60
+		
 
 		available = {
 			has_air_experience > 99
 		}
 
+		custom_cost_trigger = {
+			has_air_experience > 99
+		}
+		custom_cost_text = decision_cost_air_xp_100
+
+
 		visible = {
-			has_completed_focus = FKR_additional_airforce_doc
-			NOT = { has_country_flag = FKR_aleady_get_add_air_doc }
-			NOT = { has_tech = formation_flying }
+			has_completed_focus =  FKR_additional_airforce_doc
+			has_subdoctrine_in_track = medium_aircraft
 		}
 
-		fire_only_once = yes
 
 		complete_effect = {
-			air_experience = -100
-			set_technology = {
-				formation_flying = 1
+			add_mastery = {
+				amount = 50
+				track = medium_aircraft
 			}
+
 			hidden_effect = {
-				set_country_flag = FKR_aleady_get_add_air_doc
+            	air_experience = -100
+			}
+        }
+	}
+
+	FKR_add_air_doc_heavy_mastery_training = {
+		icon = generic_air
+		allowed = {
+			original_tag = FKR
+		}
+
+		days_remove = 60
+		
+
+		available = {
+			has_air_experience > 99
+		}
+
+		custom_cost_trigger = {
+			has_air_experience > 99
+		}
+		custom_cost_text = decision_cost_air_xp_100
+
+
+		visible = {
+			has_completed_focus =  FKR_additional_airforce_doc
+			has_subdoctrine_in_track = heavy_aircraft
+		}
+
+
+		complete_effect = {
+			add_mastery = {
+				amount = 50
+				track = heavy_aircraft
+			}
+
+			hidden_effect = {
+            	air_experience = -100
 			}
         }
 	}

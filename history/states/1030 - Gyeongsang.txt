@@ -1,5 +1,5 @@
 state={
-	id=1017
+	id=1030
 	name="STATE_GYEONGSANG"
 	resources={
 		steel=3.000
@@ -14,7 +14,7 @@ state={
 			dockyard = 1
 			arms_factory = 1
 			air_base = 1
-			13381 = {
+			13387 = {
 				naval_base = 1
 			}
 			4056 = {
@@ -36,7 +36,7 @@ state={
 
 	}
 	provinces={
-		1054 1081 4056 4086 4103 7121 10085 10115 12060 12089 13381
+		1054 1081 4056 4086 4103 7121 10085 10115 12060 12089 13387
 	}
 	manpower=4668681
 	buildings_max_level_factor=1.000

@@ -11,6 +11,7 @@ guiTypes = {
 		Orientation = CENTER
 		fade_time = 500
 		fade_type = linear
+		clipping = no
 		
 		show_sound = pop_up
 

@@ -1,9 +1,10 @@
 state={
-	id=1020
+	id=1029
 	name="STATE_GANGWON"
 	resources={
 		steel=17.000
 		chromium=65.000
+		coal = 12.000
 	}
 
 	history={
@@ -13,7 +14,7 @@ state={
 
 		}
 		victory_points = {
-			13383 3
+			13389 3
 		}
 		victory_points = {
 			7021 5
@@ -22,7 +23,7 @@ state={
 
 	}
 	provinces={
-		1148 4004 7021 9936 9981 11912 11958 12011 13383
+		1148 4004 7021 9936 9981 11912 11958 12011 13389
 	}
 	manpower=1529071
 	buildings_max_level_factor=1.000

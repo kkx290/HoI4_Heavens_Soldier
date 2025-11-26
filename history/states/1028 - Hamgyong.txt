@@ -1,9 +1,10 @@
 state={
-	id=1021
+	id=1028
 	name="STATE_HAMGYEONG"
 	resources={
 		steel=20.000
 		tungsten=3.000
+		coal = 8.000
 	}
 
 	history={

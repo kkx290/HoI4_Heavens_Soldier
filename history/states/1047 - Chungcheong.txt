@@ -1,7 +1,9 @@
 state={
-	id=1018
-	name="STATE_JEOLLA"
+	id=1047
+	name="STATE_CHUNGCHEONG"
+	
 	resources={
+		coal = 9.000
 	}
 
 	history={
@@ -9,25 +11,22 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			4126 = {
-				naval_base = 3
-			}
 
 		}
 		victory_points = {
-			13377 5
+			13385 5 
 		}
 		victory_points = {
-			10110 10
+			13386 3 
 		}
 		add_core_of = KOR
 
 	}
 
 	provinces={
-		4126 10110 11948 11977 12085 13376 13377
+		1100 7175 7204 11992 13384 13385 13386 
 	}
-	manpower=3957027
+	manpower=2390018
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.0 

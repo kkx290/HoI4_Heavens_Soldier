@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_korean:
 
 # CATEGORIES
 FKR_KOR_hiding: "옛 한국의 소굴 (£pol_power [?Root.FKR_hiding_cost_total|H0])"
@@ -131,16 +131,18 @@ FKR_reserch_future_module_naval_armor_equipment:0 "미래 함선 장갑 개발"
 FKR_reserch_future_module_torpedo_equipment:0 "미래 어뢰 발사관 개발"
 
 # FKR_strat_ops_command
-FKR_add_army_doc_mobile_warfare:0 "기동전 교리 추가 개발"
-FKR_add_army_doc_superior_firepower:0 "압도적인 화력 교리 추가 개발"
-FKR_add_army_doc_grand_battle:0 "대전략 교리 추가 개발"
-FKR_add_army_doc_mass_assault:0 "대규모 돌격 교리 추가 개발"
-FKR_add_navy_doc_grand_battlefleet:0 "대 함대 교리 추가 개발"
-FKR_add_navy_doc_wolfpacks:0 "늑대 떼 교리 추가 개발"
-FKR_add_navy_doc_base_strike:0 "기지 타격 교리 추가 개발"
-FKR_add_air_doc_air_superiority:0 "제공권 교리 추가 개발"
-FKR_add_air_doc_direct_ground_support:0 "지상 지원 교리 추가 개발"
-FKR_add_air_doc_mass_destruction:0 "대량 파괴 교리 추가 개발"
+FKR_add_army_doc_infantry_mastery_training:0 "보병 교리 추가 개발"
+FKR_add_army_doc_support_mastery_training:0 "포병 및 전투 지원 교리 추가 개발"
+FKR_add_army_doc_armor_mastery_training:0 "기갑 교리 추가 개발"
+FKR_add_army_doc_operations_mastery_training:0 "작전 교리 추가 개발"
+FKR_add_navy_doc_submarine_mastery_training:0 "잠수함 교리 추가 개발"
+FKR_add_navy_doc_screens_mastery_training:0 "보조함 교리 추가 개발"
+FKR_add_navy_doc_carriers_mastery_training:0 "항공모함 교리 추가 개발"
+FKR_add_navy_doc_capital_ships_mastery_training:0 "주력함 교리 추가 개발"
+FKR_add_air_doc_fighter_mastery_training:0 "전투기 교리 추가 개발"
+FKR_add_air_doc_strike_mastery_training:0 "타격항공기 교리 추가 개발"
+FKR_add_air_doc_medium_mastery_training:0 "중형항공기 교리 추가 개발"
+FKR_add_air_doc_heavy_mastery_training:0 "중항공기 교리 추가 개발"
 FKR_develop_mustartd_gas:0 "겨자 가스 개발"
 FKR_make_mustard_gas:0 "겨자 가스탄 생산"
 FKR_using_mustard_gas:0 "겨자 가스탄 사용"
