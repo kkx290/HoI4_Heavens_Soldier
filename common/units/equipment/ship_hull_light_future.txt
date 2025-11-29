@@ -37,6 +37,7 @@ equipments = {
 		naval_range = 3500
 		
 		max_strength = 60
+		naval_dominance_factor = 50
 		
 
 		
@@ -89,6 +90,7 @@ equipments = {
 		naval_range = 3500
 		
 		max_strength = 60
+		naval_dominance_factor = 50
 		
 
 		
@@ -162,6 +164,7 @@ equipments = {
 		reliability = 0.94
 		naval_range = 3500
 		max_strength = 80
+		naval_dominance_factor = 50
 		build_cost_ic = 120000
 		resources = {
 			steel = 4
@@ -224,6 +227,7 @@ equipments = {
 		reliability = 0.94
 		naval_range = 3500
 		max_strength = 80
+		naval_dominance_factor = 50
 		build_cost_ic = 1200
 		resources = {
 			steel = 4

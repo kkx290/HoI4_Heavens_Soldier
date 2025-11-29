@@ -34,6 +34,7 @@ equipments = {
 		naval_range = 5000
 		
 		max_strength = 200
+		naval_dominance_factor = 175
 		
 
 		
@@ -85,6 +86,7 @@ equipments = {
 		naval_range = 5000
 		
 		max_strength = 200
+		naval_dominance_factor = 175
 		
 
 		
@@ -114,6 +116,7 @@ equipments = {
 		build_cost_ic = 230000
 		naval_range = 5000
 		max_strength = 150
+		naval_dominance_factor = 175
 		resources = {
 			steel = 3
 			chromium = 1
@@ -187,6 +190,7 @@ equipments = {
 		build_cost_ic = 2300
 		naval_range = 5000
 		max_strength = 150
+		naval_dominance_factor = 175
 		resources = {
 			steel = 3
 			chromium = 1
