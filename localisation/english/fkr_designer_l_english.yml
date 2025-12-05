@@ -1,0 +1,10 @@
+﻿ l_english:
+ # name list themes
+ # name list themes -- updated to include country-specific and other new list names
+ NAME_THEME_KOR_KINGS:0 "Kings"
+ NAME_THEME_KOR_CITES:0 "Cities"
+ NAME_THEME_KOR_PREFECTURES:0 "Prefectures"
+ NAME_THEME_KOR_MOUNTAINS:0 "Mountains"
+ NAME_THEME_KOR_RIVERS:0 "Rivers"
+ NAME_THEME_KOR_ISLANDS:0 "Islands"
+ 

@@ -1,0 +1,4 @@
+﻿l_english:
+ autonomy_fkr_imperial_principality:0 "Imperial Dukedom" # 제국령 공국
+ autonomy_fkr_imperial_tribute:0 "Imperial tributedom" # 제국령 조공국
+ autonomy_fkr_imperial_vassal:0 "Imperial Vassaldom" # 제국령 신하국

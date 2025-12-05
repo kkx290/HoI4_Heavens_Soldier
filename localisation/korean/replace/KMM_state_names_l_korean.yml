@@ -31,16 +31,19 @@
 
  #Korean Japan
  FKR_STATE_526:0 "유구"
- FKR_STATE_528:0 "구주"
- FKR_STATE_529:0 "중국"
+ FKR_STATE_528:0 "북구주"
+ FKR_STATE_529:0 "산양"
  FKR_STATE_530:0 "사국"
  FKR_STATE_531:0 "관서"
  FKR_STATE_532:0 "동해"
- FKR_STATE_533:0 "동북"
+ FKR_STATE_533:0 "북동북"
  FKR_STATE_534:0 "북육"
  FKR_STATE_535:0 "갑신성"
  FKR_STATE_536:0 "북해도"
  FKR_STATE_282:0 "관동"
+ FKR_STATE_1018:0 "남구주"
+ FKR_STATE_1020:0 "산음"
+ FKR_STATE_1019:0 "남동북"
  
  #Korean Manchuria
  FKR_STATE_328:0 "서간도"

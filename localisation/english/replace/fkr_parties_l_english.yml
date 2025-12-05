@@ -1,0 +1,28 @@
+﻿l_english:
+ KOR_communism_party:0 "CPK"
+ KOR_communism_party_long:0 "Communist Party of Korea"
+ KOR_democratic_party:0 "Singanhoe"
+ KOR_democratic_party_long:0 "Singanhoe"
+ KOR_neutrality_party:0 "Yi Dynasty"
+ KOR_neutrality_party_long:0 "Yi Dynasty"
+ KOR_fascism_party:0 "Governor-General's Office"
+ KOR_fascism_party_long:0 "Governor-General's Office"
+
+ FKR_communism_party:0 "PMG"
+ FKR_communism_party_long:0 "Provisional Military Government"
+ FKR_democratic_party:0 "PMG"
+ FKR_democratic_party_long:0 "Provisional Military Government"
+ FKR_neutrality_party:0 "PMG"
+ FKR_neutrality_party_long:0 "Provisional Military Government"
+ FKR_fascism_party:0 "PMG"
+ FKR_fascism_party_long:0 "Provisional Military Government"
+ 
+ FKR_late_communism_party:0 "CPK"
+ FKR_late_communism_party_long:0 "Communist Party of Korea"
+ FKR_late_democratic_party:0 "KIP"
+ FKR_late_democratic_party_long:0 "Korea Independence Party"
+ FKR_late_neutrality_party:0 "Yi Dynasty"
+ FKR_late_neutrality_party_long:0 "Yi Dynasty"
+ FKR_late_fascism_party:0 "IA"
+ FKR_late_fascism_party_long:0 "Imperial Association"
+ 

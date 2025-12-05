@@ -60,6 +60,8 @@ FKR_add_core_at_mongol_desc:0 "몽골은 우리 고대 영토의 일부였습니
 FKR_add_core_at_japan:0 "일본의 영토 수복"
 FKR_add_core_at_japan_desc:0 "일본은 우리 고대 영토의 일부였습니다."
 FKR_add_core_at_china:0 "중국의 영토 수복"
+FKR_add_core_at_china_trigger:0 "중국 영토를 통제 중"
+FKR_add_core_at_china_effect:0 "§Y중국§! 주는 이제 핵심 주입니다."
 FKR_add_core_at_china_desc:0 "중국은 우리 고대 영토의 일부였습니다."
 FKR_add_core_at_siberia:0 "시베리아의 영토 수복"
 FKR_add_core_at_siberia_desc:0 "시베리아는 우리 고대 영토의 일부였습니다."

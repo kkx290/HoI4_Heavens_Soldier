@@ -1,0 +1,5 @@
+﻿l_english:
+ transport_heli_infantry:0 "Air Assault Battalion"
+ transport_heli_infantry_desc:0 "An airborne unit performing air assault operations using rotary-wing aircraft. It is effective in all terrains and demonstrates high efficiency, especially in amphibious operations."
+ attack_heli:0 "Attack Helicopter Battalion"
+ attack_heli_desc:0 "Responsible for effective strikes against enemy armored forces and aerial bombardment supporting friendly ground forces. Air-to-ground missiles and autocannon fire can effectively neutralize all ground targets."

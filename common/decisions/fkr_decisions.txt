@@ -390,6 +390,10 @@ FKR_ancient_korean_literature_category = {
 			controls_state = 612
 			controls_state = 330
 			controls_state = 329
+			controls_state = 817
+			controls_state = 818
+			controls_state = 819
+			controls_state = 820
 		}
 
 		complete_effect = {
@@ -397,6 +401,10 @@ FKR_ancient_korean_literature_category = {
 			612	 = { add_core_of = ROOT }
 			330	 = { add_core_of = ROOT }
 			329	 = { add_core_of = ROOT }
+			817	 = { add_core_of = ROOT }
+			818	 = { add_core_of = ROOT }
+			819	 = { add_core_of = ROOT }
+			820	 = { add_core_of = ROOT }
 			set_country_flag = FKR_mongol_cored
 		}
 	}
@@ -427,6 +435,9 @@ FKR_ancient_korean_literature_category = {
 			controls_state = 530
 			controls_state = 528
 			controls_state = 526
+			controls_state = 1018
+			controls_state = 1019
+			controls_state = 1020
 		}
 
 		complete_effect = {
@@ -443,6 +454,9 @@ FKR_ancient_korean_literature_category = {
 			530	 = { add_core_of = ROOT }
 			528	 = { add_core_of = ROOT }
 			526	 = { add_core_of = ROOT }
+			1018 = { add_core_of = ROOT }
+			1019 = { add_core_of = ROOT }
+			1020 = { add_core_of = ROOT }
 			set_country_flag = FKR_japan_cored
 		}
 	}
@@ -460,109 +474,146 @@ FKR_ancient_korean_literature_category = {
 
 		available = {
 			is_subject = no
-			controls_state = 615
-			controls_state = 621
-			controls_state = 746
-			controls_state = 622
-			controls_state = 756
-			controls_state = 755
-			controls_state = 604
-			controls_state = 754
-			controls_state = 616
-			controls_state = 283
-			controls_state = 753
-			controls_state = 618
-			controls_state = 617
-			controls_state = 760
-			controls_state = 619
-			controls_state = 287
-			controls_state = 759
-			controls_state = 747
-			controls_state = 325
-			controls_state = 599
-			controls_state = 594
-			controls_state = 593
-			controls_state = 591
-			controls_state = 729
-			controls_state = 326
-			controls_state = 524
-			controls_state = 609
-			controls_state = 608
-			controls_state = 614
-			controls_state = 597
-			controls_state = 743
-			controls_state = 607
-			controls_state = 598
-			controls_state = 744
-			controls_state = 620
-			controls_state = 606
-			controls_state = 613
-			controls_state = 601
-			controls_state = 752
-			controls_state = 751
-			controls_state = 605
-			controls_state = 748
-			controls_state = 603
-			controls_state = 602
-			controls_state = 750
-			controls_state = 600
-			controls_state = 595
-			controls_state = 749
-			controls_state = 596
-			controls_state = 592
+			custom_trigger_tooltip = {
+				tooltip = FKR_add_core_at_china_trigger 
+				controls_state = 615
+				controls_state = 621
+				controls_state = 746
+				controls_state = 622
+				controls_state = 756
+				controls_state = 755
+				controls_state = 604
+				controls_state = 754
+				controls_state = 616
+				controls_state = 283
+				controls_state = 753
+				controls_state = 618
+				controls_state = 617
+				controls_state = 760
+				controls_state = 619
+				controls_state = 287
+				controls_state = 759
+				controls_state = 747
+				controls_state = 325
+				controls_state = 599
+				controls_state = 594
+				controls_state = 593
+				controls_state = 591
+				controls_state = 729
+				controls_state = 326
+				controls_state = 728
+				controls_state = 524
+				controls_state = 609
+				controls_state = 608
+				controls_state = 614
+				controls_state = 597
+				controls_state = 743
+				controls_state = 607
+				controls_state = 598
+				controls_state = 744
+				controls_state = 620
+				controls_state = 606
+				controls_state = 613
+				controls_state = 601
+				controls_state = 752
+				controls_state = 751
+				controls_state = 605
+				controls_state = 748
+				controls_state = 603
+				controls_state = 602
+				controls_state = 750
+				controls_state = 600
+				controls_state = 595
+				controls_state = 749
+				controls_state = 596
+				controls_state = 592
+				controls_state = 1032
+				controls_state = 1033
+				controls_state = 1034
+				controls_state = 1035
+				controls_state = 1036
+				controls_state = 1037
+				controls_state = 1038
+				controls_state = 1039
+				controls_state = 1040
+				controls_state = 1041
+				controls_state = 1042
+				controls_state = 1043
+				controls_state = 1044
+				controls_state = 1045
+				controls_state = 1046
+			}
 		}
 
 		complete_effect = {
-			615	 = { add_core_of = ROOT }
-			621	 = { add_core_of = ROOT }
-			746	 = { add_core_of = ROOT }
-			622	 = { add_core_of = ROOT }
-			756	 = { add_core_of = ROOT }
-			755	 = { add_core_of = ROOT }
-			604	 = { add_core_of = ROOT }
-			754	 = { add_core_of = ROOT }
-			616	 = { add_core_of = ROOT }
-			283	 = { add_core_of = ROOT }
-			753	 = { add_core_of = ROOT }
-			618	 = { add_core_of = ROOT }
-			617	 = { add_core_of = ROOT }
-			760	 = { add_core_of = ROOT }
-			619	 = { add_core_of = ROOT }
-			287	 = { add_core_of = ROOT }
-			759	 = { add_core_of = ROOT }
-			747	 = { add_core_of = ROOT }
-			325	 = { add_core_of = ROOT }
-			599	 = { add_core_of = ROOT }
-			594	 = { add_core_of = ROOT }
-			593	 = { add_core_of = ROOT }
-			591	 = { add_core_of = ROOT }
-			729	 = { add_core_of = ROOT }
-			326	 = { add_core_of = ROOT }
-			524	 = { add_core_of = ROOT }
-			609	 = { add_core_of = ROOT }
-			608	 = { add_core_of = ROOT }
-			614	 = { add_core_of = ROOT }
-			597	 = { add_core_of = ROOT }
-			743	 = { add_core_of = ROOT }
-			607	 = { add_core_of = ROOT }
-			598	 = { add_core_of = ROOT }
-			744	 = { add_core_of = ROOT }
-			620	 = { add_core_of = ROOT }
-			606	 = { add_core_of = ROOT }
-			613	 = { add_core_of = ROOT }
-			601	 = { add_core_of = ROOT }
-			752	 = { add_core_of = ROOT }
-			751	 = { add_core_of = ROOT }
-			605	 = { add_core_of = ROOT }
-			748	 = { add_core_of = ROOT }
-			603	 = { add_core_of = ROOT }
-			602	 = { add_core_of = ROOT }
-			750	 = { add_core_of = ROOT }
-			600	 = { add_core_of = ROOT }
-			595	 = { add_core_of = ROOT }
-			749	 = { add_core_of = ROOT }
-			596	 = { add_core_of = ROOT }
-			592	 = { add_core_of = ROOT }
+			custom_effect_tooltip = FKR_add_core_at_china_effect
+			hidden_effect = {
+				615	 = { add_core_of = ROOT }
+				621	 = { add_core_of = ROOT }
+				746	 = { add_core_of = ROOT }
+				622	 = { add_core_of = ROOT }
+				756	 = { add_core_of = ROOT }
+				755	 = { add_core_of = ROOT }
+				604	 = { add_core_of = ROOT }
+				754	 = { add_core_of = ROOT }
+				616	 = { add_core_of = ROOT }
+				283	 = { add_core_of = ROOT }
+				753	 = { add_core_of = ROOT }
+				618	 = { add_core_of = ROOT }
+				617	 = { add_core_of = ROOT }
+				760	 = { add_core_of = ROOT }
+				619	 = { add_core_of = ROOT }
+				287	 = { add_core_of = ROOT }
+				759	 = { add_core_of = ROOT }
+				747	 = { add_core_of = ROOT }
+				325	 = { add_core_of = ROOT }
+				599	 = { add_core_of = ROOT }
+				594	 = { add_core_of = ROOT }
+				593	 = { add_core_of = ROOT }
+				591	 = { add_core_of = ROOT }
+				729	 = { add_core_of = ROOT }
+				326	 = { add_core_of = ROOT }
+				728	 = { add_core_of = ROOT }
+				524	 = { add_core_of = ROOT }
+				609	 = { add_core_of = ROOT }
+				608	 = { add_core_of = ROOT }
+				614	 = { add_core_of = ROOT }
+				597	 = { add_core_of = ROOT }
+				743	 = { add_core_of = ROOT }
+				607	 = { add_core_of = ROOT }
+				598	 = { add_core_of = ROOT }
+				744	 = { add_core_of = ROOT }
+				620	 = { add_core_of = ROOT }
+				606	 = { add_core_of = ROOT }
+				613	 = { add_core_of = ROOT }
+				601	 = { add_core_of = ROOT }
+				752	 = { add_core_of = ROOT }
+				751	 = { add_core_of = ROOT }
+				605	 = { add_core_of = ROOT }
+				748	 = { add_core_of = ROOT }
+				603	 = { add_core_of = ROOT }
+				602	 = { add_core_of = ROOT }
+				750	 = { add_core_of = ROOT }
+				600	 = { add_core_of = ROOT }
+				595	 = { add_core_of = ROOT }
+				749	 = { add_core_of = ROOT }
+				596	 = { add_core_of = ROOT }
+				1032 = { add_core_of = ROOT }
+				1033 = { add_core_of = ROOT }
+				1034 = { add_core_of = ROOT }
+				1035 = { add_core_of = ROOT }
+				1036 = { add_core_of = ROOT }
+				1037 = { add_core_of = ROOT }
+				1038 = { add_core_of = ROOT }
+				1039 = { add_core_of = ROOT }
+				1040 = { add_core_of = ROOT }
+				1041 = { add_core_of = ROOT }
+				1042 = { add_core_of = ROOT }
+				1043 = { add_core_of = ROOT }
+				1044 = { add_core_of = ROOT }
+				1045 = { add_core_of = ROOT }
+				1046 = { add_core_of = ROOT }
+			}
 			set_country_flag = FKR_china_cored
 		}
 	}
@@ -611,6 +662,15 @@ FKR_ancient_korean_literature_category = {
 			controls_state = 409
 			controls_state = 408
 			controls_state = 655
+			controls_state = 882
+			controls_state = 830
+			controls_state = 832
+			controls_state = 823
+			controls_state = 831
+			controls_state = 587
+			controls_state = 881
+			controls_state = 583
+			controls_state = 574
 		}
 
 		complete_effect = {
@@ -645,6 +705,14 @@ FKR_ancient_korean_literature_category = {
 			409	 = { add_core_of = ROOT }
 			408	 = { add_core_of = ROOT }
 			655	 = { add_core_of = ROOT }
+			882	 = { add_core_of = ROOT }
+			830	 = { add_core_of = ROOT }
+			832	 = { add_core_of = ROOT }
+			823	 = { add_core_of = ROOT }
+			831	 = { add_core_of = ROOT }
+			587	 = { add_core_of = ROOT }
+			881	 = { add_core_of = ROOT }
+			574	 = { add_core_of = ROOT }
 			set_country_flag = FKR_siberia_cored
 		}
 	}
@@ -689,8 +757,11 @@ FKR_ancient_korean_literature_category = {
 		available = {
 			is_subject = no
 			controls_state = 289
+			controls_state = 868
+			controls_state = 724
 			controls_state = 741
 			controls_state = 286
+			controls_state = 1017
 			controls_state = 670
 			controls_state = 671
 			controls_state = 288
@@ -698,12 +769,24 @@ FKR_ancient_korean_literature_category = {
 			controls_state = 434
 			controls_state = 441
 			controls_state = 442
+			controls_state = 869
+			controls_state = 993
+			controls_state = 994
+			controls_state = 995
+			controls_state = 996
+			controls_state = 997
+			controls_state = 998
+			controls_state = 999
+			controls_state = 787
 		}
 
 		complete_effect = {
 			289	 = { add_core_of = ROOT }
+			868	 = { add_core_of = ROOT }
+			724	 = { add_core_of = ROOT }
 			741	 = { add_core_of = ROOT }
 			286	 = { add_core_of = ROOT }
+			1017	 = { add_core_of = ROOT }
 			670	 = { add_core_of = ROOT }
 			671	 = { add_core_of = ROOT }
 			288	 = { add_core_of = ROOT }
@@ -711,6 +794,15 @@ FKR_ancient_korean_literature_category = {
 			434	 = { add_core_of = ROOT }
 			441	 = { add_core_of = ROOT }
 			442	 = { add_core_of = ROOT }
+			869	 = { add_core_of = ROOT }
+			993	 = { add_core_of = ROOT }
+			994	 = { add_core_of = ROOT }
+			995	 = { add_core_of = ROOT }
+			996	 = { add_core_of = ROOT }
+			997	 = { add_core_of = ROOT }
+			998	 = { add_core_of = ROOT }
+			999	 = { add_core_of = ROOT }
+			787	 = { add_core_of = ROOT }
 			set_country_flag = FKR_india_indochina_cored
 		}
 	}
@@ -739,6 +831,15 @@ FKR_ancient_korean_literature_category = {
 			controls_state = 266
 			controls_state = 416
 			controls_state = 418
+			controls_state = 1000
+			controls_state = 1001
+			controls_state = 1002
+			controls_state = 1003
+			controls_state = 1004
+			controls_state = 1005
+			controls_state = 1007
+			controls_state = 1008
+			controls_state = 1009
 		}
 
 		complete_effect = {
@@ -753,6 +854,16 @@ FKR_ancient_korean_literature_category = {
 			266	 = { add_core_of = ROOT }
 			416	 = { add_core_of = ROOT }
 			418	 = { add_core_of = ROOT }
+			1000 = { add_core_of = ROOT }
+			1001 = { add_core_of = ROOT }
+			1002 = { add_core_of = ROOT }
+			1003 = { add_core_of = ROOT }
+			1004 = { add_core_of = ROOT }
+			1005 = { add_core_of = ROOT }
+			1006 = { add_core_of = ROOT }
+			1007 = { add_core_of = ROOT }
+			1008 = { add_core_of = ROOT }
+			1009 = { add_core_of = ROOT }
 			set_country_flag = FKR_iran_afgan_cored
 		}
 	}
@@ -3109,13 +3220,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_army_experience > 99
+			has_army_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_army_experience > 99
+			has_army_experience > 89
 		}
-		custom_cost_text = decision_cost_army_xp_100
+		custom_cost_text = decision_cost_army_xp_90
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
@@ -3125,12 +3236,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = infantry
 			}
 
 			hidden_effect = {
-            	army_experience = -100
+            	army_experience = -90
 			}
         }
 	}
@@ -3145,13 +3256,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_army_experience > 99
+			has_army_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_army_experience > 99
+			has_army_experience > 89
 		}
-		custom_cost_text = decision_cost_army_xp_100
+		custom_cost_text = decision_cost_army_xp_90
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
@@ -3161,12 +3272,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = support
 			}
 
 			hidden_effect = {
-            	army_experience = -100
+            	army_experience = -90
 			}
         }
 	}
@@ -3181,13 +3292,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_army_experience > 99
+			has_army_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_army_experience > 99
+			has_army_experience > 89
 		}
-		custom_cost_text = decision_cost_army_xp_100
+		custom_cost_text = decision_cost_army_xp_90
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
@@ -3197,12 +3308,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = armor
 			}
 
 			hidden_effect = {
-            	army_experience = -100
+            	army_experience = -90
 			}
         }
 	}
@@ -3217,13 +3328,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_army_experience > 99
+			has_army_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_army_experience > 99
+			has_army_experience > 89
 		}
-		custom_cost_text = decision_cost_army_xp_100
+		custom_cost_text = decision_cost_army_xp_90
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
@@ -3233,12 +3344,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = operations
 			}
 
 			hidden_effect = {
-            	army_experience = -100
+            	army_experience = -90
 			}
         }
 	}
@@ -3253,13 +3364,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_navy_experience > 99
+			has_navy_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_navy_experience > 99
+			has_navy_experience > 89
 		}
-		custom_cost_text = decision_cost_navy_xp_100
+		custom_cost_text = decision_cost_navy_xp_90
 
 
 		visible = {
@@ -3270,12 +3381,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = submarines
 			}
 
 			hidden_effect = {
-            	navy_experience = -100
+            	navy_experience = -90
 			}
         }
 	}
@@ -3290,13 +3401,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_navy_experience > 99
+			has_navy_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_navy_experience > 99
+			has_navy_experience > 89
 		}
-		custom_cost_text = decision_cost_navy_xp_100
+		custom_cost_text = decision_cost_navy_xp_90
 
 
 		visible = {
@@ -3307,12 +3418,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = screens
 			}
 
 			hidden_effect = {
-            	navy_experience = -100
+            	navy_experience = -90
 			}
         }
 	}
@@ -3327,13 +3438,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_navy_experience > 99
+			has_navy_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_navy_experience > 99
+			has_navy_experience > 89
 		}
-		custom_cost_text = decision_cost_navy_xp_100
+		custom_cost_text = decision_cost_navy_xp_90
 
 
 		visible = {
@@ -3344,12 +3455,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = carriers
 			}
 
 			hidden_effect = {
-            	navy_experience = -100
+            	navy_experience = -90
 			}
         }
 	}
@@ -3364,13 +3475,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_navy_experience > 99
+			has_navy_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_navy_experience > 99
+			has_navy_experience > 89
 		}
-		custom_cost_text = decision_cost_navy_xp_100
+		custom_cost_text = decision_cost_navy_xp_90
 
 
 		visible = {
@@ -3381,12 +3492,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = capital_ships
 			}
 
 			hidden_effect = {
-            	navy_experience = -100
+            	navy_experience = -90
 			}
         }
 	}
@@ -3401,13 +3512,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_air_experience > 99
+			has_air_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_air_experience > 99
+			has_air_experience > 89
 		}
-		custom_cost_text = decision_cost_air_xp_100
+		custom_cost_text = decision_cost_air_xp_90
 
 
 		visible = {
@@ -3418,12 +3529,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = fighter_aircraft
 			}
 
 			hidden_effect = {
-            	air_experience = -100
+            	air_experience = -90
 			}
         }
 	}
@@ -3438,13 +3549,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_air_experience > 99
+			has_air_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_air_experience > 99
+			has_air_experience > 89
 		}
-		custom_cost_text = decision_cost_air_xp_100
+		custom_cost_text = decision_cost_air_xp_90
 
 
 		visible = {
@@ -3455,12 +3566,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = strike_aircraft
 			}
 
 			hidden_effect = {
-            	air_experience = -100
+            	air_experience = -90
 			}
         }
 	}
@@ -3475,13 +3586,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_air_experience > 99
+			has_air_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_air_experience > 99
+			has_air_experience > 89
 		}
-		custom_cost_text = decision_cost_air_xp_100
+		custom_cost_text = decision_cost_air_xp_90
 
 
 		visible = {
@@ -3492,12 +3603,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = medium_aircraft
 			}
 
 			hidden_effect = {
-            	air_experience = -100
+            	air_experience = -90
 			}
         }
 	}
@@ -3512,13 +3623,13 @@ FKR_strat_ops_command = {
 		
 
 		available = {
-			has_air_experience > 99
+			has_air_experience > 89
 		}
 
 		custom_cost_trigger = {
-			has_air_experience > 99
+			has_air_experience > 89
 		}
-		custom_cost_text = decision_cost_air_xp_100
+		custom_cost_text = decision_cost_air_xp_90
 
 
 		visible = {
@@ -3529,12 +3640,12 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 50
+				amount = 100
 				track = heavy_aircraft
 			}
 
 			hidden_effect = {
-            	air_experience = -100
+            	air_experience = -90
 			}
         }
 	}
@@ -3866,6 +3977,7 @@ FKR_asia_guardian = {
 					has_full_control_of_state = 671
 					has_full_control_of_state = 286
 					has_full_control_of_state = 741
+					has_full_control_of_state = 1017
 				}
 			}
 		}

@@ -1,0 +1,98 @@
+﻿l_english:
+ FKR_eom_hyunsung:0 "Eom Hyunsung"
+ FKR_jeon_jingu:0 "Jeon Jingu"
+
+ ### 정치 고문 ###
+ FKR_ahn_changho:0 "Ahn Chang-ho"
+ FKR_chang_duksoo:0 "Chang Duk-soo"
+ FKR_heo_jeong:0 "Heo Jeong"
+ FKR_hong_myunghee:0 "Hong Myung-hee"
+ FKR_jang_myeon:0 "Jang Myeon"
+ FKR_kim_byungro:0 "Kim Byung-ro"
+ FKR_kim_gyusik:0 "Kim Kyu-sik"
+ FKR_kim_sungsoo:0 "Kim Sung-soo"
+ FKR_lee_dongnyeong:0 "Lee Dong-nyeong"
+ FKR_lee_siyoung:0 "Lee Si-young"
+ FKR_rhee_syngman:0 "Syngman Rhee"
+ FKR_shin_ikhee:0 "Shin Ik-hee"
+ FKR_song_jinwoo:0 "Song Jin-woo"
+
+ ### 이론가 ###
+ FKR_chae_byungdeok:0 "Chae Byung-deok"
+ FKR_choi_yongdeok:0 "Choi Yong-deok"
+ FKR_jung_ilkwon:0 "Chung Il-kwon"
+ FKR_jung_keungmo:0 "Jung Keung-mo"
+ FKR_lee_seunggi:0 "Lee Seung-gi"
+ FKR_son_wonil:0 "Son Won-il"
+ FKR_yoon_ilseon:0 "Yoon Il-seon"
+
+ ### 육군참모총장 ###
+ FKR_hong_saik:0 "Hong Sa-ik"
+ FKR_kim_seokwon:0 "Kim Seok-won"
+ FKR_lee_eungjoon:0 "Lee Eung-joon"
+ FKR_lee_jongchan:0 "Lee Jong-chan"
+ FKR_song_hoseong:0 "Song Ho-seong"
+ FKR_won_youngdeok:0 "Won Yong-deok"
+
+ ### 해군참모총장 ###
+ FKR_park_okgyu:0 "Park Ok-gyu"
+
+ ### 공군참모총장 ###
+ FKR_jang_deokchang:0 "Jang Deok-chang"
+ FKR_park_wonseok:0 "Park Won-seok"
+
+ ### 고위지휘관 ###
+ FKR_baek_suhnyeop:0 "Paik Sun-yup"
+ FKR_ji_cheongcheon:0 "Ji Cheong-cheon"
+ FKR_kim_jeongryeol:0 "Kim Jeong-ryeol"
+ FKR_kim_jongoh:0 "Kim Jong-oh"
+ FKR_lee_beomseok:0 "Lee Beom-seok"
+ FKR_lee_hyungkeun:0 "Lee Hyung-keun"
+
+ ### 중점 장군진 ###
+ FKR_kim_hongil:0 "Kim Hong-il"
+ FKR_baek_inyeop:0 "Paik In-yeop"
+ FKR_song_yochan:0 "Song Yo-chan"
+ FKR_shin_sungmo:0 "Shin Sung-mo"
+ FKR_shin_hyunjun:0 "Shin Hyun-jun"
+ FKR_yoo_jaeheung:0 "Yoo Jae-heung"
+ FKR_lee_hanlim:0 "Lee Han-lim"
+ FKR_jang_doyoung:0 "Jang Do-young"
+ FKR_chae_myungshin:0 "Chae Myung-shin"
+ FKR_lee_yongwoon:0 "Lee Yong-woon"
+ FKR_ham_myungsoo:0 "Ham Myung-soo"
+ FKR_kim_gyuseop:0 "Kim Gyu-seop"
+
+ ### 결정 장군진 ###
+ FKR_yi_wu:0 "Yi Wu"
+ FKR_yi_geon:0 "Yi Geon"
+
+ ### 국가 지도자 - 중점 ###
+ FKR_kim_gu:0 "Kim Gu"
+ FKR_yi_kang:0 "Yi Kang"
+ FKR_yeo_woonhyung:0 "Yeo Woon-hyung"
+ FKR_yi_un:0 "Yi Un"
+
+ ### 이스터에그 ###
+ FKR_mutaguchi_renya:0 "Mutaguchi Renya"
+ FKR_sibas:0 "Sibas"
+ FKR_try_re:0 "TRY RE"
+ FKR_uralsky:0 "Uralsky"
+ FKR_yong_nom:0 "Yongpoleon"
+ FKR_bluecokewine:0 "Bluecokewine"
+
+ ### 조선 총독부 - 인물 ###
+ KOR_yoon_chiho:0 "Yun Chi-ho"
+ KOR_yi_un:0 "Yi Un"
+ KOR_kim_ilsung:0 "Kim Il-sung"
+ KOR_ugaki_kazushige:0 "Ugaki Kazushige"
+ KOR_itagaki_seisiro:0 "Itagaki Seishiro"
+ KOR_saito_makoto:0 "Saito Makoto"
+
+ ### 괴뢰국 ###
+ MAN_aisin_gioro_puyi_Xuantong:0 "Xuantong Emperor"
+ ENG_edward_viii_hs:0 "Edward VIII"
+ AUS_otto_von_habsburg:0 "Otto von Habsburg"
+ SPR_alfonso_xiii:0 "Alfonso XIII"
+ FRA_jean_iii:0 "Jean III"
+ FRA_henry_vi:0 "Henry VI"

@@ -1,0 +1,83 @@
+﻿l_english:
+ STATE_GYEONGGI:0 "Gyeonggi"
+ STATE_PYONGAN:0 "Pyongan"
+ STATE_GYEONGSANG:0 "Gyeongsang"
+ STATE_JEOLLA:0 "Jeolla"
+ STATE_CHUNGCHEONG:0 "Chungcheong"
+ STATE_GANGWON:0 "Gangwon"
+ STATE_HAMGYEONG:0 "Hamgyeong"
+ STATE_JEJU:0 "Jeju"
+ STATE_HWANGHAE:0 "Hwanghae"
+ 
+ KOR_STATE_GYEONGGI:0 "Keiki"
+ KOR_STATE_PYONGAN:0 "Heian"
+ KOR_STATE_GYEONGSANG:0 "Keisho"
+ KOR_STATE_JEOLLA:0 "Zenra"
+ KOR_STATE_CHUNGCHEONG:0 "Chusei"
+ KOR_STATE_GANGWON:0 "Kogen"
+ KOR_STATE_HAMGYEONG:0 "Kankyo"
+ KOR_STATE_JEJU:0 "Saishu"
+ KOR_STATE_HWANGHAE:0 "Kokai"
+ 
+ JAP_STATE_GYEONGGI:0 "Keiki"
+ JAP_STATE_PYONGAN:0 "Heian"
+ JAP_STATE_GYEONGSANG:0 "Keisho"
+ JAP_STATE_JEOLLA:0 "Zenra"
+ JAP_STATE_CHUNGCHEONG:0 "Chusei"
+ JAP_STATE_GANGWON:0 "Kogen"
+ JAP_STATE_HAMGYEONG:0 "Kankyo"
+ JAP_STATE_JEJU:0 "Saishu"
+ JAP_STATE_HWANGHAE:0 "Kokai"
+
+ #Korean Japan
+ FKR_STATE_526:0 "Yugu"
+ FKR_STATE_528:0 "North Guju"
+ FKR_STATE_529:0 "Sanyang"
+ FKR_STATE_530:0 "Saguk"
+ FKR_STATE_531:0 "Gwanseo"
+ FKR_STATE_532:0 "Donghae"
+ FKR_STATE_533:0 "North Dongbuk"
+ FKR_STATE_534:0 "Bukyuk"
+ FKR_STATE_535:0 "Gapshinseong"
+ FKR_STATE_536:0 "Bukhaedo"
+ FKR_STATE_282:0 "Gwandong"
+ FKR_STATE_1018:0 "South Guju"
+ FKR_STATE_1020:0 "Saneum"
+ FKR_STATE_1019:0 "South Dongbuk"
+ 
+ #Korean Manchuria
+ FKR_STATE_328:0 "Seogando"
+ FKR_STATE_717:0 "Bukgando"
+ FKR_STATE_716:0 "Yodong"
+ FKR_STATE_745:0 "Daeryeon"
+ FKR_STATE_610:0 "Yeolha"
+ FKR_STATE_714:0 "Heukryonggang"
+ FKR_STATE_715:0 "Yonyeong"
+ FKR_STATE_761:0 "Horyunpaei"
+ 
+ #Korean Kuril
+ FKR_STATE_555:0 "Cheondo Islands"
+ 
+ #Korean Taiwan
+ FKR_STATE_524:0 "Daeman"
+ 
+ #Korean Primorsk
+ FKR_STATE_408:0 "South Yeonhaeju"
+ FKR_STATE_409:0 "North Yeonhaeju"
+ 
+ #Korean Sakhalin
+ FKR_STATE_655:0 "North Gohyeoldo"
+ FKR_STATE_537:0 "South Gohyeoldo"
+ 
+ #Japanese Kuril
+ JAP_STATE_555:0 "Chishima Islands"
+ 
+ #Japanese Manchuria
+ JAP_STATE_745:0 "Dairen"
+ 
+ #Japanese Taiwan
+ JAP_STATE_524:0 "Taiwan"
+ 
+ #Japanese Sakhalin
+ JAP_STATE_655:0 "North Karafuto"
+ JAP_STATE_537:0 "South Karafuto"

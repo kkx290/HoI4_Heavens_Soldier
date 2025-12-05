@@ -1732,6 +1732,14 @@ country_event = {
 				}
 				FROM = { transfer_state = 741 }
 			}
+			if = {
+				limit = {
+					1017 = {
+						is_fully_controlled_by = FRA
+					}
+				}
+				FROM = { transfer_state = 1017 }
+			}
 		}
 		FROM = { country_event = { id = fkr.44 days = 1 } }
 	}
@@ -1794,6 +1802,11 @@ country_event = {
 					limit = { 741 = { is_fully_controlled_by = ROOT }
 					}
 					transfer_state = 741
+				}
+				if = {
+					limit = { 1017 = { is_fully_controlled_by = ROOT }
+					}
+					transfer_state = 1017
 				}
 			}
 			hidden_effect = {
@@ -2456,8 +2469,8 @@ country_event = { # rise at the korea 1
 
 	immediate = {
 		FKR = {
-			set_state_controller = 1017
-			set_state_controller = 1018
+			set_state_controller = 1030
+			set_state_controller = 1031
 			division_template = {
                     name = "의용 사단"
                     priority = 0
@@ -2483,7 +2496,7 @@ country_event = { # rise at the korea 1
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 1017 }
+					prioritize = { 1030 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.25"
 						owner = FKR
@@ -2499,7 +2512,7 @@ country_event = { # rise at the korea 1
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 1018 }
+					prioritize = { 1031 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.25"
 						owner = FKR
@@ -2533,7 +2546,7 @@ country_event = { # rise at the korea 2
 	immediate = {
 		FKR = { 
 			set_state_controller = 525
-			set_state_controller = 1020
+			set_state_controller = 1029
 			division_template = {
                     name = "의용 사단"
                     priority = 0
@@ -2579,7 +2592,7 @@ country_event = { # rise at the korea 2
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 1020 }
+					prioritize = { 1029 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.5"
 						owner = FKR
@@ -2617,7 +2630,7 @@ country_event = { # rise at the korea 3
 	immediate = {
 		FKR = {
 			set_state_controller = 527
-			set_state_controller = 1023
+			set_state_controller = 1048
 			set_country_flag = FKR_rising_ended
 			division_template = {
                     name = "의용 사단"
@@ -2668,7 +2681,7 @@ country_event = { # rise at the korea 3
 				}
 
 				random_owned_controlled_state = {
-					prioritize = { 1023 }
+					prioritize = { 1048 }
 					create_unit = {
 						division = "name = \"지역 의용군\" division_template = \"의용 사단\" start_experience_factor = 0.0 start_equipment_factor = 0.75"
 						owner = FKR

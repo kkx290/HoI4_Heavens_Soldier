@@ -1,0 +1,88 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 525
+						state = 527
+						state = 1028
+						state = 1029
+						state = 1030
+						state = 1031
+						state = 1047
+						state = 1048
+						state = 1049
+					}
+					NOT = {
+						has_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
+					}	
+				}
+				add_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
+			}	
+		}
+	}	
+	on_capitulation = {
+		effect = {	
+			if = {
+				limit = {
+					tag = KOR
+					has_war_with = FKR
+					any_state = {
+						has_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
+					}
+				}
+				every_state = {
+					limit = {
+						OR = {
+							state = 525
+							state = 527
+							state = 1028
+							state = 1029
+							state = 1030
+							state = 1031
+							state = 1047
+							state = 1048
+							state = 1049
+						}
+						has_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
+					}
+					remove_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
+				}
+			}
+		}
+	}
+	on_annex = {
+		effect = {
+			log = "on_annex : [From.GetName] annexed by [ROOT.GetName]"
+			if = {
+				limit = {
+					FROM = {
+						tag = KOR
+					}
+					any_state = {
+						has_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
+					}
+				}
+				every_state = {
+					limit = {
+						OR = {
+							state = 525
+							state = 527
+							state = 1028
+							state = 1029
+							state = 1030
+							state = 1031
+							state = 1047
+							state = 1048
+							state = 1049
+						}
+						has_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
+					}
+					remove_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
+					remove_core_of = KOR
+				}
+			}
+		}
+	}
+}

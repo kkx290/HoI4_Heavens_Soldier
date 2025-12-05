@@ -1,0 +1,186 @@
+﻿l_english:
+
+# CATEGORIES
+FKR_KOR_hiding:0 "Hideout in Old Korea (£pol_power [?Root.FKR_hiding_cost_total|H0])"
+FKR_war_preparations:0 "Raid by Independence Fighters"
+FKR_hire_royal_house_field_marshal:0 "Hire Royal Family Members as Generals"
+FKR_ancient_korean_literature_category:0 "Records of Ancient Korea"
+FKR_unified_earth_government_category:0 "One Ideology, One Government, Unified Earth"
+#FKR_future_tech_research:0 "Future Tech Development"
+FKR_future_tech_research_land:0 "Future Army Tech Development"
+FKR_future_tech_research_air:0 "Future Air Force Tech Development"
+FKR_future_tech_research_navy:0 "Future Navy Tech Development"
+FKR_strat_ops_command:0 "Strategic Operations Command"
+FKR_asia_guardian:0 "Guardian of Asia"
+FKR_red_road_of_asia_cat:0 "The Red Road of Asia"
+FKR_easter_mission:0 "Mysterious Rumors"
+
+FKR_KOR_hiding_desc:0 "We share a border with [KOR.GetNameDef], who currently dominates the Korean Peninsula. It is undeniable that if they become fully aware of our existence, they will seek to destroy us. Fortunately, [KOR.GetNameDef], weakened by bureaucracy, internal strife, and incompetent leaders, is blind. With the right choices, we can conceal our activities until we are strong enough to fully reveal our plans. However, we cannot hide in their shadow forever. Over time, it will become increasingly difficult to keep ourselves hidden."
+FKR_ancient_korean_literature_category_desc:0 "According to an ancient Korean text, the Korean people were once the rulers of the greatest empire in history, stretching east to west from the Korean Peninsula to Mesopotamia, and north to south from all of Siberia to Northern India and Central Asia—simply put, dominating most of the Eurasian continent."
+FKR_unified_earth_government_category_desc:0 "As we reign as a superpower now, there is no great power on Earth capable of checking us. We will soon be able to achieve the great feat of human unification!"
+#FKR_future_tech_research_desc:0 "Modern technology will eventually become obsolete. By investing heavily in future technology, we will enjoy a distinct technological advantage."
+FKR_strat_ops_command_desc:0 "We need to approach war strategically to win.\n Mustard Gas Shells: [?Root.mustard_gas_cap]"
+FKR_future_tech_research_land_desc:0 "In the end, it's the infantry that plants the flag!"
+FKR_future_tech_research_air_desc:0 "You cannot win a war with air power alone, but you cannot win a war without it."
+FKR_future_tech_research_navy_desc:0 "One thing is certain: without decisive naval power, you can do nothing, but with it, you can achieve all honorable and glorious deeds."
+
+# DECISIONS
+
+#################################
+# HIDING FROM THE Korea
+#################################
+
+FKR_hide_activity:0 "Conceal Activities in Jeju"
+FKR_hide_activity_desc:0 "The intelligence gathering and administrative capabilities of interwar nations are very poor compared to modern times. However, as time passes, we will have to exert more and more effort to conceal our activities from the outside world."
+FKR_hide_activity_days_tt:0 "Conceal from §YKorea§! for §Y90 days§!"
+FKR_hide_activity_bonus_tt:0 " + [?Root.days_mission_timeout@FKR_hide_activity|H0] §Gadditional§! days"
+FKR_hide_activity_crisis:0 "§RWe will face a crisis!§!\n"
+
+# CRISIS
+KOR_crisis:0 "§RConcealment Crisis§!"
+KOR_crisis_flag:0 "§ROur existence will soon be revealed!§!"
+
+# War Preparations
+FKR_prepare_to_seize_arms:0 "Prepare to Raid Arsenals in the Peninsula"
+FKR_prepare_to_seize_arms_desc:0 "Arsenals and supply depots installed throughout the country are poorly guarded. With a well-coordinated attack, we can minimize casualties while seizing weapons, ammunition, and supplies from these arsenals. Given more time and resources, we could raid even more arsenals."
+FKR_seize_arms:0 "Commence Arsenal Raid"
+FKR_seize_arms_desc:0 "Strike without hesitation! Long live Korean Independence!"
+FKR_can_prepare_more_tt:0 "Plans for further arsenal raids are still being prepared.\n"
+
+FKR_national_uprising:0 "National Uprising"
+FKR_national_uprising_desc:0 "Despite our technological superiority, we lack the numbers to face the enemy. By persuading our people within the Korean Peninsula, we can steer this war in a more favorable direction.\n"
+
+# National Form Hwandan
+FKR_form_hwandan_empire:0 "Realization of the Hwandan State"
+FKR_form_hwandan_empire_tt:0 "To call ourselves this absurdly great empire, we must possess a fittingly vast territory."
+FKR_add_core_at_manchu:0 "Restore Territory in Manchuria"
+FKR_add_core_at_manchu_desc:0 "Manchuria was part of our ancient territory."
+FKR_add_core_at_mongol:0 "Restore Territory in Mongolia"
+FKR_add_core_at_mongol_desc:0 "Mongolia was part of our ancient territory."
+FKR_add_core_at_japan:0 "Restore Territory in Japan"
+FKR_add_core_at_japan_desc:0 "Japan was part of our ancient territory."
+FKR_add_core_at_china:0 "Restore Territory in China"
+FKR_add_core_at_china_trigger:0 "Controls the Chinese Territory"
+FKR_add_core_at_china_effect:0 "§YChinese§! States are now Core."
+FKR_add_core_at_china_desc:0 "China was part of our ancient territory."
+FKR_add_core_at_siberia:0 "Restore Territory in Siberia"
+FKR_add_core_at_siberia_desc:0 "Siberia was part of our ancient territory."
+FKR_add_core_at_tibet:0 "Restore Territory in Tibet"
+FKR_add_core_at_tibet_desc:0 "Tibet was part of our ancient territory."
+FKR_add_core_at_india_indochina:0 "Restore Territory in India and Indochina"
+FKR_add_core_at_india_indochina_desc:0 "Parts of India and Indochina were part of our ancient territory."
+FKR_add_core_at_iran_afgan:0 "Restore Territory in Iran and Afghanistan"
+FKR_add_core_at_iran_afgan_desc:0 "Parts of Iran and Afghanistan were part of our ancient territory."
+
+# National Form Unified Earth Government
+FKR_prepare_for_unified_earth:0 "Preparation for One Government"
+FKR_prepare_for_unified_earth_desc:0 "To form a coalition government, we must conquer all nations."
+FKR_the_unified_earth_government:0 "Realization of the Unified Earth Government"
+FKR_the_unified_earth_government_desc:0 "Conquering the Earth is by no means an easy task, but the end will be magnificent."
+FKR_time_to_reaching_top_decision:0 "Time to Rise to the Top"
+FKR_time_to_reaching_top_decision_desc:0 "There are no longer any nations to check us."
+
+# Future Tech Research (Land)
+FKR_future_research_processing:0 "Developing Future Equipment"
+FKR_reserch_future_infantry_equipment:0 "Future Infantry Equipment Development"
+FKR_reserch_future_mechanized_equipment:0 "Future Mechanized Equipment Development"
+FKR_reserch_future_armor_equipment:0 "Future Tank Equipment Development"
+FKR_reserch_future_derivative_armor_equipment:0 "Future Derivative Tank Equipment Development"
+FKR_reserch_future_transport_heli_equipment:0 "Future Transport Helicopter Development"
+FKR_reserch_future_attack_heli_equipment:0 "Future Attack Helicopter Development"
+FKR_reserch_future_anti_air_equipment:0 "Future Anti-Air Equipment Development"
+FKR_reserch_future_anti_tank_equipment:0 "Future Anti-Tank Equipment Development"
+FKR_reserch_future_mlrs_equipment:0 "Future MLRS Equipment Development"
+# NSB
+FKR_reserch_future_armor_chassis_equipment:0 "Future Tank Chassis Development"
+FKR_reserch_future_armor_Module_equipment:0 "Future Tank Special Module Development"
+FKR_reserch_future_armor_weapon_cannon_equipment:0 "Future Tank Smoothbore Cannon Development"
+FKR_reserch_future_armor_weapon_rocket_launcher_equipment:0 "Future Tank Rocket Launcher Development"
+FKR_reserch_future_armor_anti_air_cannon_equipment:0 "Future Tank Anti-Air Cannon Development"
+FKR_reserch_future_armor_weapon_howitzer_equipment:0 "Future Tank Self-Propelled Howitzer Development"
+
+# Future Tech Research (Air)
+FKR_reserch_future_fighter_equipment:0 "Future Fighter Development"
+FKR_reserch_future_cas_equipment:0 "Future Close Air Support (CAS) Development"
+FKR_reserch_future_strat_bomber_equipment:0 "Future Strategic Bomber Development"
+# BBA
+FKR_reserch_future_fighter_airframe_equipment:0 "Future Fighter Airframe Development"
+FKR_reserch_future_fighter_weapon_missile_equipment:0 "Future Guided Missile Development"
+FKR_reserch_future_fighter_weapon_bomb_bay_equipment:0 "Future Bomb Bay Development"
+FKR_reserch_future_fighter_weapon_gatling_cannon_equipment:0 "Future Gatling Cannon Development"
+FKR_reserch_future_fighter_weapon_rocket_launcher_equipment:0 "Future Rocket Launcher Development"
+FKR_reserch_future_fighter_modules_equipment:0 "Future Fighter Special Module Development"
+
+
+# Future Tech Research (Navy)
+FKR_reserch_future_destroyer_legacy_equipment:0 "Future Destroyer Development"
+FKR_reserch_future_light_cruiser_legacy_equipment:0 "Future Light Cruiser Development"
+FKR_reserch_future_carrier_legacy_equipment:0 "Future Aircraft Carrier Development"
+FKR_reserch_future_submarine_legacy_equipment:0 "Future Submarine Development"
+
+FKR_reserch_future_light_hull_equipment:0 "Future Destroyer Hull Development"
+FKR_reserch_future_cruiser_hull_equipment:0 "Future Cruiser Hull Development"
+FKR_reserch_future_carrier_hull_equipment:0 "Future Aircraft Carrier Hull Development"
+FKR_reserch_future_submarine_hull_equipment:0 "Future Submarine Hull Development"
+
+FKR_reserch_future_module_light_battery_equipment:0 "Future Small Battery Development"
+FKR_reserch_future_module_missile_launcher_equipment:0 "Future Anti-Ship Missile Development"
+FKR_reserch_future_module_secondaries_equipment:0 "Future Secondary Battery Development"
+FKR_reserch_future_module_fc_radar_equipment:0 "Future Fire Control & Radar Development"
+FKR_reserch_future_module_nuclear_engine_equipment:0 "Ship Nuclear Reactor Engine Development"
+FKR_reserch_future_module_depth_charge_equipment:0 "Future Anti-Submarine Helicopter Development"
+FKR_reserch_future_module_naval_armor_equipment:0 "Future Naval Armor Development"
+FKR_reserch_future_module_torpedo_equipment:0 "Future Torpedo Launcher Development"
+
+# FKR_strat_ops_command
+FKR_add_army_doc_infantry_mastery_training:0 "Infantry Doctrine Additional Development"
+FKR_add_army_doc_support_mastery_training:0 "Combat Support Doctrine Additional Development"
+FKR_add_army_doc_armor_mastery_training:0 "Armor Doctrine Additional Development"
+FKR_add_army_doc_operations_mastery_training:0 "Operations Doctrine Additional Development"
+FKR_add_navy_doc_submarine_mastery_training:0 "Submarine Doctrine Additional Development"
+FKR_add_navy_doc_screens_mastery_training:0 "Screen Doctrine Additional Development"
+FKR_add_navy_doc_carriers_mastery_training:0 "Carrier Doctrine Additional Development"
+FKR_add_navy_doc_capital_ships_mastery_training:0 "Capital Doctrine Additional Development"
+FKR_add_air_doc_fighter_mastery_training:0 "Fighter Aircraft Doctrine Additional Development"
+FKR_add_air_doc_strike_mastery_training:0 "Strike Aircraft Doctrine Additional Development"
+FKR_add_air_doc_medium_mastery_training:0 "Medium Aircraft Doctrine Additional Development"
+FKR_add_air_doc_heavy_mastery_training:0 "Heavy Aircraft Doctrine Additional Development"
+FKR_develop_mustartd_gas:0 "Develop Mustard Gas"
+FKR_make_mustard_gas:0 "Produce Mustard Gas Shells"
+FKR_using_mustard_gas:0 "Use Mustard Gas Shells"
+FKR_can_use_murstartd_gas:0 "Mustard Gas Development Complete"
+FKR_aleady_use_mustard_gas:0 "Mustard Gas Shells are already in use."
+
+# Prospect for resources
+FKR_develop_sinuiju_oil_deposits:0 "Develop Sinuiju Oil Deposits"
+FKR_develop_sector_7_oil_deposits:0 "Develop Sector 7 Oil Deposits"
+
+# Hire royal house general
+FKR_hire_lee_eun:0 "Hire Yi Un as Field Marshal"
+FKR_hire_lee_kang:0 "Hire Yi Kang as Field Marshal"
+FKR_hire_lee_woo:0 "Hire Yi Wu as Field Marshal"
+FKR_hire_lee_geon:0 "Hire Yi Geon as General"
+
+FKR_guardian_of_INS:0 "Transfer Indonesian Jurisdiction"
+FKR_guardian_of_MAL:0 "Transfer Malayan Jurisdiction"
+FKR_guardian_of_indochina:0 "Transfer Indochina Jurisdiction"
+
+FKR_puppet_ins:0 "Puppet Indonesia"
+FKR_puppet_mal:0 "Puppet Malaysia"
+FKR_puppet_raj:0 "Puppet India"
+FKR_puppet_tur:0 "Puppet Turkey"
+FKR_puppet_afg:0 "Puppet Afghanistan"
+FKR_puppet_per:0 "Puppet Iran"
+FKR_puppet_irq:0 "Puppet Iraq"
+FKR_puppet_sau:0 "Puppet Saudi Arabia"
+FKR_puppet_sia:0 "Puppet Siam"
+
+# Easter Egg
+FKR_find_japanese_independence_person:0 "Japanese Independence Fighter"
+FKR_find_japanese_independence_person_tt:0 "What will happen?"
+FKR_find_civilian_sibas:0 "Renya's Pursuit"
+FKR_find_civilian_sibas_tt:0 "Who will we discover?"
+FKR_find_civilian_try_re:0 "Another Civilian"
+FKR_find_civilian_try_re_tt:0 "No one knows what event will occur."
+FKR_find_civilian_uralsky:0 "Another Civilian"
+FKR_find_civilian_yong_nom:0 "Another Civilian"

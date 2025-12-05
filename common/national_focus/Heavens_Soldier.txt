@@ -739,7 +739,12 @@ focus_tree = {
 						is_in_faction = no
 					}
 				}
-				create_faction = FKR_asia_league_faction
+				create_faction_from_template = {
+					template = faction_template_defensive_democratic
+					name = FKR_asia_league_faction
+					icon = GFX_faction_logo_generic_democratic
+				}
+
 			}
 		}
 
@@ -788,6 +793,19 @@ focus_tree = {
 			}
 			if = {
 				limit = {
+					GDC = {
+						NOT = {
+							has_government = democratic
+						}
+					}
+				}
+				create_wargoal = {
+					type = topple_government
+					target = GDC
+				}
+			}
+			if = {
+				limit = {
 					GXC = {
 						NOT = {
 							has_government = democratic
@@ -827,6 +845,71 @@ focus_tree = {
 			}
 			if = {
 				limit = {
+					XIC = {
+						NOT = {
+							has_government = democratic
+						}
+					}
+				}
+				create_wargoal = {
+					type = topple_government
+					target = XIC
+				}
+			}
+			if = {
+				limit = {
+					HBC = {
+						NOT = {
+							has_government = democratic
+						}
+					}
+				}
+				create_wargoal = {
+					type = topple_government
+					target = HBC
+				}
+			}
+			if = {
+				limit = {
+					SND = {
+						NOT = {
+							has_government = democratic
+						}
+					}
+				}
+				create_wargoal = {
+					type = topple_government
+					target = SND
+				}
+			}
+			if = {
+				limit = {
+					NXM = {
+						NOT = {
+							has_government = democratic
+						}
+					}
+				}
+				create_wargoal = {
+					type = topple_government
+					target = NXM
+				}
+			}
+			if = {
+				limit = {
+					GSM = {
+						NOT = {
+							has_government = democratic
+						}
+					}
+				}
+				create_wargoal = {
+					type = topple_government
+					target = GSM
+				}
+			}
+			if = {
+				limit = {
 					XSM = {
 						NOT = {
 							has_government = democratic
@@ -840,6 +923,19 @@ focus_tree = {
 			}
 			if = {
 				limit = {
+					SIC = {
+						NOT = {
+							has_government = democratic
+						}
+					}
+				}
+				create_wargoal = {
+					type = topple_government
+					target = SIC
+				}
+			}
+			if = {
+				limit = {
 					SIK = {
 						NOT = {
 							has_government = democratic
@@ -849,6 +945,19 @@ focus_tree = {
 				create_wargoal = {
 					type = topple_government
 					target = SIK
+				}
+			}
+			if = {
+				limit = {
+					KHM = {
+						NOT = {
+							has_government = democratic
+						}
+					}
+				}
+				create_wargoal = {
+					type = topple_government
+					target = KHM
 				}
 			}
 		}
@@ -960,7 +1069,11 @@ focus_tree = {
 				set_rule = {
 					can_create_factions = yes
 				}
-				create_faction = FKR_the_new_alliance
+				create_faction_from_template = {
+					template = faction_template_defensive_democratic
+					name = FKR_the_new_alliance
+					icon = GFX_faction_logo_generic_democratic
+				}
 				ENG = {
 					country_event = generic.5
 				}
@@ -1157,7 +1270,11 @@ focus_tree = {
 				set_rule = {
 					can_create_factions = yes
 				}
-				create_faction = FKR_the_new_international
+				create_faction_from_template = {
+					template = faction_template_comintern
+					name = FKR_the_new_international
+					icon = GFX_faction_logo_comintern
+				}
 				SOV = {
 					country_event = generic.5
 				}
@@ -1340,7 +1457,11 @@ focus_tree = {
 			set_rule = {
 				can_create_factions = yes
 			}
-			create_faction = FKR_return_of_emperor_faction
+			create_faction_from_template = {
+				template = faction_template_anti_communist
+				name = FKR_return_of_emperor_faction
+				icon = GFX_faction_logo_generic_fascist
+			}
 		}
 
 	}
@@ -1462,6 +1583,38 @@ focus_tree = {
 				has_war_with = PRC
 			}
 			OR = {
+				has_wargoal_against = XIC
+				has_war_with = XIC
+			}
+			OR = {
+				has_wargoal_against = KHM
+				has_war_with = KHM
+			}
+			OR = {
+				has_wargoal_against = GSM
+				has_war_with = GSM
+			}
+			OR = {
+				has_wargoal_against = NXM
+				has_war_with = NXM
+			}
+			OR = {
+				has_wargoal_against = SIC
+				has_war_with = SIC
+			}
+			OR = {
+				has_wargoal_against = GDC
+				has_war_with = GDC
+			}
+			OR = {
+				has_wargoal_against = HBC
+				has_war_with = HBC
+			}
+			OR = {
+				has_wargoal_against = SND
+				has_war_with = SND
+			}
+			OR = {
 				has_wargoal_against = TIB
 				has_war_with = TIB
 			}
@@ -1551,6 +1704,118 @@ focus_tree = {
 				}
 				create_wargoal = {
 					target = PRC
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_wargoal_against = XIC
+					}
+					NOT = {
+						has_war_with = XIC
+					}
+				}
+				create_wargoal = {
+					target = XIC
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_wargoal_against = KHM
+					}
+					NOT = {
+						has_war_with = KHM
+					}
+				}
+				create_wargoal = {
+					target = KHM
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_wargoal_against = GSM
+					}
+					NOT = {
+						has_war_with = GSM
+					}
+				}
+				create_wargoal = {
+					target = GSM
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_wargoal_against = NXM
+					}
+					NOT = {
+						has_war_with = NXM
+					}
+				}
+				create_wargoal = {
+					target = NXM
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_wargoal_against = SIC
+					}
+					NOT = {
+						has_war_with = SIC
+					}
+				}
+				create_wargoal = {
+					target = SIC
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_wargoal_against = GDC
+					}
+					NOT = {
+						has_war_with = GDC
+					}
+				}
+				create_wargoal = {
+					target = GDC
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_wargoal_against = HBC
+					}
+					NOT = {
+						has_war_with = HBC
+					}
+				}
+				create_wargoal = {
+					target = HBC
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_wargoal_against = SND
+					}
+					NOT = {
+						has_war_with = SND
+					}
+				}
+				create_wargoal = {
+					target = SND
 					type = annex_everything
 				}
 			}
@@ -2081,7 +2346,11 @@ focus_tree = {
 			set_rule = {
 				can_create_factions = yes
 			}
-			create_faction = FKR_royal_society_faction
+			create_faction_from_template = {
+				template = faction_template_regional
+				name = FKR_royal_society_faction
+				icon = GFX_faction_logo_generic_4
+			}
 			if = {
 				limit = {
 					JAP = {
@@ -2703,9 +2972,7 @@ focus_tree = {
 				}
 				random_state = {
 					limit = {
-						controller = {
-							tag = ROOT
-						}
+						is_controlled_by = ROOT
 						free_building_slots = {
 							building = dockyard
 							size > 2
@@ -3943,8 +4210,12 @@ focus_tree = {
 			set_rule = {
 				can_create_factions = yes
 			}
-			create_faction = FKR_asia_communism_faction
 			add_ideas = FKR_asia_communism_idea
+			create_faction_from_template = {
+				template = faction_template_world_revolution
+				name = FKR_asia_communism_faction
+				icon = GFX_faction_logo_generic_14
+			}
 		}
 
 	}
@@ -4149,7 +4420,11 @@ focus_tree = {
 						is_in_faction = no
 					}
 				}
-				create_faction = FKR_asia_communism_faction
+				create_faction_from_template = {
+					template = faction_template_world_revolution
+					name = FKR_asia_communism_faction
+					icon = GFX_faction_logo_generic_14
+				}
 			}
 			PRC = {
 				country_event = fkr.97
@@ -4617,9 +4892,7 @@ focus_tree = {
 				}
 				random_state = {
 					limit = {
-						controller = {
-							tag = ROOT
-						}
+						is_controlled_by = ROOT
 						free_building_slots = {
 							building = dockyard
 							size > 2
@@ -4745,9 +5018,7 @@ focus_tree = {
 				}
 				random_state = {
 					limit = {
-						controller = {
-							tag = ROOT
-						}
+						is_controlled_by = ROOT
 						free_building_slots = {
 							building = dockyard
 							size > 2
