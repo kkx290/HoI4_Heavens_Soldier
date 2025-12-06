@@ -3223,10 +3223,6 @@ FKR_strat_ops_command = {
 			has_army_experience > 89
 		}
 
-		custom_cost_trigger = {
-			has_army_experience > 89
-		}
-		custom_cost_text = decision_cost_army_xp_90
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
@@ -3259,10 +3255,6 @@ FKR_strat_ops_command = {
 			has_army_experience > 89
 		}
 
-		custom_cost_trigger = {
-			has_army_experience > 89
-		}
-		custom_cost_text = decision_cost_army_xp_90
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
@@ -3295,10 +3287,6 @@ FKR_strat_ops_command = {
 			has_army_experience > 89
 		}
 
-		custom_cost_trigger = {
-			has_army_experience > 89
-		}
-		custom_cost_text = decision_cost_army_xp_90
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
@@ -3331,10 +3319,6 @@ FKR_strat_ops_command = {
 			has_army_experience > 89
 		}
 
-		custom_cost_trigger = {
-			has_army_experience > 89
-		}
-		custom_cost_text = decision_cost_army_xp_90
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
@@ -3366,11 +3350,6 @@ FKR_strat_ops_command = {
 		available = {
 			has_navy_experience > 89
 		}
-
-		custom_cost_trigger = {
-			has_navy_experience > 89
-		}
-		custom_cost_text = decision_cost_navy_xp_90
 
 
 		visible = {
@@ -3404,11 +3383,6 @@ FKR_strat_ops_command = {
 			has_navy_experience > 89
 		}
 
-		custom_cost_trigger = {
-			has_navy_experience > 89
-		}
-		custom_cost_text = decision_cost_navy_xp_90
-
 
 		visible = {
 			has_completed_focus = FKR_additional_navy_doc
@@ -3440,11 +3414,6 @@ FKR_strat_ops_command = {
 		available = {
 			has_navy_experience > 89
 		}
-
-		custom_cost_trigger = {
-			has_navy_experience > 89
-		}
-		custom_cost_text = decision_cost_navy_xp_90
 
 
 		visible = {
@@ -3478,11 +3447,6 @@ FKR_strat_ops_command = {
 			has_navy_experience > 89
 		}
 
-		custom_cost_trigger = {
-			has_navy_experience > 89
-		}
-		custom_cost_text = decision_cost_navy_xp_90
-
 
 		visible = {
 			has_completed_focus = FKR_additional_navy_doc
@@ -3514,11 +3478,6 @@ FKR_strat_ops_command = {
 		available = {
 			has_air_experience > 89
 		}
-
-		custom_cost_trigger = {
-			has_air_experience > 89
-		}
-		custom_cost_text = decision_cost_air_xp_90
 
 
 		visible = {
@@ -3552,11 +3511,6 @@ FKR_strat_ops_command = {
 			has_air_experience > 89
 		}
 
-		custom_cost_trigger = {
-			has_air_experience > 89
-		}
-		custom_cost_text = decision_cost_air_xp_90
-
 
 		visible = {
 			has_completed_focus =  FKR_additional_airforce_doc
@@ -3589,11 +3543,6 @@ FKR_strat_ops_command = {
 			has_air_experience > 89
 		}
 
-		custom_cost_trigger = {
-			has_air_experience > 89
-		}
-		custom_cost_text = decision_cost_air_xp_90
-
 
 		visible = {
 			has_completed_focus =  FKR_additional_airforce_doc
@@ -3625,11 +3574,6 @@ FKR_strat_ops_command = {
 		available = {
 			has_air_experience > 89
 		}
-
-		custom_cost_trigger = {
-			has_air_experience > 89
-		}
-		custom_cost_text = decision_cost_air_xp_90
 
 
 		visible = {
