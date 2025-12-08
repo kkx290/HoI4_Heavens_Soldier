@@ -598,6 +598,7 @@ FKR_ancient_korean_literature_category = {
 				595	 = { add_core_of = ROOT }
 				749	 = { add_core_of = ROOT }
 				596	 = { add_core_of = ROOT }
+				592	 = { add_core_of = ROOT }
 				1032 = { add_core_of = ROOT }
 				1033 = { add_core_of = ROOT }
 				1034 = { add_core_of = ROOT }
@@ -3232,7 +3233,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = infantry
 			}
 
@@ -3258,14 +3259,14 @@ FKR_strat_ops_command = {
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
-			has_subdoctrine_in_track = support
+			has_subdoctrine_in_track = combat_support
 		}
 
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
-				track = support
+				amount = 50
+				track = combat_support
 			}
 
 			hidden_effect = {
@@ -3296,7 +3297,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = armor
 			}
 
@@ -3328,7 +3329,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = operations
 			}
 
@@ -3360,7 +3361,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = submarines
 			}
 
@@ -3392,7 +3393,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = screens
 			}
 
@@ -3424,7 +3425,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = carriers
 			}
 
@@ -3456,7 +3457,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = capital_ships
 			}
 
@@ -3488,7 +3489,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = fighter_aircraft
 			}
 
@@ -3520,7 +3521,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = strike_aircraft
 			}
 
@@ -3552,7 +3553,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = medium_aircraft
 			}
 
@@ -3584,7 +3585,7 @@ FKR_strat_ops_command = {
 
 		complete_effect = {
 			add_mastery = {
-				amount = 100
+				amount = 50
 				track = heavy_aircraft
 			}
 
