@@ -311,6 +311,7 @@ if = {
 
 		}
 		obsolete = no
+		icon = "GFX_future_carrier_hull_medium"
 	}
 
 	create_equipment_variant = {

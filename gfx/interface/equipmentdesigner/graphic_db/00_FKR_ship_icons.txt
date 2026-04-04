@@ -1,0 +1,90 @@
+FKR = {
+	ship_hull_carrier_future_1 = {
+		pool = {
+			icons = { 
+				GFX_early_ship_hull_carrier_medium #Generic
+				GFX_basic_ship_hull_carrier_medium #Generic
+				GFX_improved_ship_hull_carrier_medium #Generic
+				GFX_advanced_ship_hull_carrier_medium #Generic
+				GFX_future_carrier_hull_medium
+			}
+		}
+	}
+	ship_hull_carrier_future_2 = {
+		pool = {
+			icons = { 
+				GFX_early_ship_hull_carrier_medium #Generic
+				GFX_basic_ship_hull_carrier_medium #Generic
+				GFX_improved_ship_hull_carrier_medium #Generic
+				GFX_advanced_ship_hull_carrier_medium #Generic
+				GFX_redesigned_future_carrier_hull_medium
+			}
+		}
+	}
+	ship_hull_cruiser_future_1 = {
+		pool = {
+			icons = { 
+				GFX_early_ship_hull_cruiser_medium #Generic
+				GFX_basic_ship_hull_cruiser_medium #Generic
+				GFX_improved_ship_hull_cruiser_medium #Generic
+				GFX_advanced_ship_hull_cruiser_medium #Generic
+				GFX_future_cruiser_hull_medium
+			}
+		}
+	}
+	ship_hull_cruiser_future_2 = {
+		pool = {
+			icons = { 
+				GFX_early_ship_hull_cruiser_medium #Generic
+				GFX_basic_ship_hull_cruiser_medium #Generic
+				GFX_improved_ship_hull_cruiser_medium #Generic
+				GFX_advanced_ship_hull_cruiser_medium #Generic
+				GFX_redesigned_future_cruiser_hull_medium
+			}
+		}
+	}
+	ship_hull_light_future_1 = {
+		pool = {
+			icons = { 
+				GFX_early_destroyer_medium #Generic
+				GFX_basic_destroyer_medium #Generic
+				GFX_improved_destroyer_medium #Generic
+				GFX_advanced_destroyer_medium #Generic
+				GFX_future_light_hull_medium
+			}
+		}
+	}
+	ship_hull_light_future_2 = {
+		pool = {
+			icons = { 
+				GFX_early_destroyer_medium #Generic
+				GFX_basic_destroyer_medium #Generic
+				GFX_improved_destroyer_medium #Generic
+				GFX_advanced_destroyer_medium #Generic
+				GFX_redesigned_future_light_hull_medium
+			}
+		}
+	}
+	ship_hull_submarine_future_1 = {
+		pool = {
+			icons = { 
+				GFX_early_submarine_medium #Generic
+				GFX_basic_submarine_medium #Generic
+				GFX_improved_submarine_medium #Generic
+				GFX_advanced_submarine_medium #Generic
+				GFX_future_submarine_hull_medium
+			}
+		}
+	}
+	ship_hull_submarine_future_2 = {
+		pool = {
+			icons = { 
+				GFX_early_submarine_medium #Generic
+				GFX_basic_submarine_medium #Generic
+				GFX_improved_submarine_medium #Generic
+				GFX_advanced_submarine_medium #Generic
+				GFX_redesigned_future_submarine_hull_medium
+			}
+		}
+	}
+}

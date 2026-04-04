@@ -3222,23 +3222,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_army_experience > 89
+			NOT = { has_completed_track = infantry }
 		}
 
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
 			has_subdoctrine_in_track = infantry
+			NOT = { has_completed_track = infantry }
 		}
 
 
 		complete_effect = {
+            		army_experience = -90
 			add_mastery = {
 				amount = 50
 				track = infantry
-			}
-
-			hidden_effect = {
-            	army_experience = -90
 			}
         }
 	}
@@ -3254,23 +3253,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_army_experience > 89
+			NOT = { has_completed_track = combat_support }
 		}
 
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
 			has_subdoctrine_in_track = combat_support
+			NOT = { has_completed_track = combat_support }
 		}
 
 
 		complete_effect = {
+           		army_experience = -90
 			add_mastery = {
 				amount = 50
 				track = combat_support
-			}
-
-			hidden_effect = {
-            	army_experience = -90
 			}
         }
 	}
@@ -3286,23 +3284,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_army_experience > 89
+			NOT = { has_completed_track = armor }
 		}
 
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
 			has_subdoctrine_in_track = armor
+			NOT = { has_completed_track = armor }
 		}
 
 
 		complete_effect = {
+            		army_experience = -90
 			add_mastery = {
 				amount = 50
 				track = armor
-			}
-
-			hidden_effect = {
-            	army_experience = -90
 			}
         }
 	}
@@ -3318,23 +3315,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_army_experience > 89
+			NOT = { has_completed_track = operations }
 		}
 
 
 		visible = {
 			has_completed_focus = FKR_additional_army_doc
 			has_subdoctrine_in_track = operations
+			NOT = { has_completed_track = operations }
 		}
 
 
 		complete_effect = {
+            		army_experience = -90
 			add_mastery = {
 				amount = 50
 				track = operations
-			}
-
-			hidden_effect = {
-            	army_experience = -90
 			}
         }
 	}
@@ -3350,23 +3346,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_navy_experience > 89
+			NOT = { has_completed_track = submarines }
 		}
 
 
 		visible = {
 			has_completed_focus = FKR_additional_navy_doc
 			has_subdoctrine_in_track = submarines
+			NOT = { has_completed_track = submarines }
 		}
 
 
 		complete_effect = {
+          		navy_experience = -90
 			add_mastery = {
 				amount = 50
 				track = submarines
-			}
-
-			hidden_effect = {
-            	navy_experience = -90
 			}
         }
 	}
@@ -3382,23 +3377,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_navy_experience > 89
+			NOT = { has_completed_track = screens }
 		}
 
 
 		visible = {
 			has_completed_focus = FKR_additional_navy_doc
 			has_subdoctrine_in_track = screens
+			NOT = { has_completed_track = screens }
 		}
 
 
 		complete_effect = {
+            		navy_experience = -90
 			add_mastery = {
 				amount = 50
 				track = screens
-			}
-
-			hidden_effect = {
-            	navy_experience = -90
 			}
         }
 	}
@@ -3414,23 +3408,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_navy_experience > 89
+			NOT = { has_completed_track = carriers }
 		}
 
 
 		visible = {
 			has_completed_focus = FKR_additional_navy_doc
 			has_subdoctrine_in_track = carriers
+			NOT = { has_completed_track = carriers }
 		}
 
 
 		complete_effect = {
+            		navy_experience = -90
 			add_mastery = {
 				amount = 50
 				track = carriers
-			}
-
-			hidden_effect = {
-            	navy_experience = -90
 			}
         }
 	}
@@ -3446,23 +3439,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_navy_experience > 89
+			NOT = { has_completed_track = capital_ships }
 		}
 
 
 		visible = {
 			has_completed_focus = FKR_additional_navy_doc
 			has_subdoctrine_in_track = capital_ships
+			NOT = { has_completed_track = capital_ships }
 		}
 
 
 		complete_effect = {
+            		navy_experience = -90
 			add_mastery = {
 				amount = 50
 				track = capital_ships
-			}
-
-			hidden_effect = {
-            	navy_experience = -90
 			}
         }
 	}
@@ -3478,23 +3470,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_air_experience > 89
+			NOT = { has_completed_track = fighter_aircraft }
 		}
 
 
 		visible = {
 			has_completed_focus =  FKR_additional_airforce_doc
 			has_subdoctrine_in_track = fighter_aircraft
+			NOT = { has_completed_track = fighter_aircraft }
 		}
 
 
 		complete_effect = {
+            		air_experience = -90
 			add_mastery = {
 				amount = 50
 				track = fighter_aircraft
-			}
-
-			hidden_effect = {
-            	air_experience = -90
 			}
         }
 	}
@@ -3510,23 +3501,23 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_air_experience > 89
+			NOT = { has_completed_track = strike_aircraft }
+
 		}
 
 
 		visible = {
 			has_completed_focus =  FKR_additional_airforce_doc
 			has_subdoctrine_in_track = strike_aircraft
+			NOT = { has_completed_track = strike_aircraft }
 		}
 
 
 		complete_effect = {
+            		air_experience = -90
 			add_mastery = {
 				amount = 50
 				track = strike_aircraft
-			}
-
-			hidden_effect = {
-            	air_experience = -90
 			}
         }
 	}
@@ -3542,23 +3533,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_air_experience > 89
+			NOT = { has_completed_track = medium_aircraft }
 		}
 
 
 		visible = {
 			has_completed_focus =  FKR_additional_airforce_doc
 			has_subdoctrine_in_track = medium_aircraft
+			NOT = { has_completed_track = medium_aircraft }
 		}
 
 
 		complete_effect = {
+           		air_experience = -90
 			add_mastery = {
 				amount = 50
 				track = medium_aircraft
-			}
-
-			hidden_effect = {
-            	air_experience = -90
 			}
         }
 	}
@@ -3574,23 +3564,22 @@ FKR_strat_ops_command = {
 
 		available = {
 			has_air_experience > 89
+			NOT = { has_completed_track = heavy_aircraft }
 		}
 
 
 		visible = {
 			has_completed_focus =  FKR_additional_airforce_doc
 			has_subdoctrine_in_track = heavy_aircraft
+			NOT = { has_completed_track = heavy_aircraft }
 		}
 
 
 		complete_effect = {
+            		air_experience = -90
 			add_mastery = {
 				amount = 50
 				track = heavy_aircraft
-			}
-
-			hidden_effect = {
-            	air_experience = -90
 			}
         }
 	}
