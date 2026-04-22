@@ -494,6 +494,7 @@ focus_tree = {
 					owns_state = 1047
 					owns_state = 1048
 					owns_state = 1049
+					owns_state = 1050
 				}
 				has_war_with = KOR
 			}
@@ -519,6 +520,7 @@ focus_tree = {
 				FKR = {
 					transfer_state = 1030
 					transfer_state = 1031
+					transfer_state = 1050
 				}
 				division_template = {
 					name = "의용 사단"
@@ -609,6 +611,7 @@ focus_tree = {
 				owns_state = 1047
 				owns_state = 1048
 				owns_state = 1049
+				owns_state = 1050
 			}
 		}
 		completion_reward = {
@@ -688,6 +691,7 @@ focus_tree = {
 					remove_state_core = 1047
 					remove_state_core = 1048
 					remove_state_core = 1049
+					remove_state_core = 1050
 				}
 			}
 		}
@@ -1341,6 +1345,7 @@ focus_tree = {
 				owns_state = 1047
 				owns_state = 1048
 				owns_state = 1049
+				owns_state = 1050
 			}
 		}
 		completion_reward = {
@@ -1424,6 +1429,7 @@ focus_tree = {
 					remove_state_core = 1047
 					remove_state_core = 1048
 					remove_state_core = 1049
+					remove_state_core = 1050
 				}
 			}
 		}

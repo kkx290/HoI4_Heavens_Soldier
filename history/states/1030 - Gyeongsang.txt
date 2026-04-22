@@ -14,9 +14,6 @@ state={
 			dockyard = 1
 			arms_factory = 1
 			air_base = 1
-			13387 = {
-				naval_base = 1
-			}
 			4056 = {
 				naval_base = 5
 
@@ -36,9 +33,9 @@ state={
 
 	}
 	provinces={
-		1054 1081 4056 4086 4103 7121 10085 10115 12060 12089 13387
+		1054 1081 4056 4086 4103 7121 10085 10115 12060 12089
 	}
-	manpower=4668681
+	manpower=4589681
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.0 
