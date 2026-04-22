@@ -113,6 +113,7 @@ bookmarks = {
 				GER_reestablish_free_elections
 			}
 		}
+
 		JAP = {
 			history = "JAP_GATHERING_STORM_DESC"
 			available = {  NOT = { has_dlc = "No Compromise, No Surrender" } }
@@ -321,10 +322,29 @@ bookmarks = {
 			}
 		}
 
-		"CZE"={
+		CZE={
 			minor = yes
 			history = "CZE_GATHERING_STORM_DESC"
 			ideology = democratic
+			available = { has_dlc = "Peace For Our Time" }
+			new_content = yes
+			ideas = {
+				CZE_a_divided_nation_fake_ns
+				CZE_sudeten_german_quandary
+				CZE_industrialists_veto
+			}
+			focuses = {
+				CZE_the_second_fortification_program
+				CZE_appeal_to_the_castle
+				CZE_coalition_building
+			}
+		}
+
+		CZE={
+			minor = yes
+			history = "CZE_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "Peace For Our Time" } }
 			ideas = {
 				CZE_skoda_works
 				CZE_divided_nation
@@ -793,6 +813,7 @@ bookmarks = {
 				DEN_pan_scandinavianism
 			}
 		}
+
 		BRA = {
 			minor = yes
 			history = BRA_GATHERING_STORM_DESC
@@ -880,9 +901,30 @@ bookmarks = {
 			minor = yes
 			history = BEL_GATHERING_STORM_DESC
 			ideology = democratic
-			available = { has_dlc = "Gotterdammerung" } 
+			available = { 
+				has_dlc = "Gotterdammerung" 
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+			} 
 			ideas = {
 				BEL_chasseurs_ardennais_ns
+				BEL_scars_of_ww1_ns_fake
+				BEL_corruption_ns_fake
+			}
+			focuses = {
+				BEL_v_for_victory
+				BEL_belgica
+				BEL_legacy_of_the_great_war
+			}
+		}
+		BEL = {
+			minor = yes
+			history = BEL_GATHERING_STORM_DESC
+			ideology = democratic
+			available = { has_dlc = "Gotterdammerung" has_dlc = "No Compromise, No Surrender" } 
+			ideas = {
+				BEL_chasseurs_ardennais_ns_ncns
 				BEL_scars_of_ww1_ns_fake
 				BEL_corruption_ns_fake
 			}
@@ -959,7 +1001,7 @@ bookmarks = {
 		}
 		PHI = {
 			minor = yes
-			history = "PHI_GATHERING_STORM_DESC" #might need an edit because it is not very good at the moment.
+			history = "PHI_GATHERING_STORM_DESC" 
 			ideology = neutrality
 			available = { has_dlc = "No Compromise, No Surrender" }
 			new_content = yes

@@ -740,7 +740,7 @@ focus_tree = {
 					}
 				}
 				create_faction_from_template = {
-					template = faction_template_defensive_democratic
+					template = faction_template_FKR_asia_league_faction
 					name = FKR_asia_league_faction
 					icon = GFX_faction_logo_generic_democratic
 				}
@@ -1070,7 +1070,7 @@ focus_tree = {
 					can_create_factions = yes
 				}
 				create_faction_from_template = {
-					template = faction_template_defensive_democratic
+					template = faction_template_FKR_asia_league_faction
 					name = FKR_the_new_alliance
 					icon = GFX_faction_logo_generic_democratic
 				}
@@ -1458,7 +1458,7 @@ focus_tree = {
 				can_create_factions = yes
 			}
 			create_faction_from_template = {
-				template = faction_template_anti_communist
+				template = faction_template_FKR_return_of_emperor_faction
 				name = FKR_return_of_emperor_faction
 				icon = GFX_faction_logo_generic_fascist
 			}
@@ -2347,7 +2347,7 @@ focus_tree = {
 				can_create_factions = yes
 			}
 			create_faction_from_template = {
-				template = faction_template_regional
+				template = faction_template_FKR_royal_society_faction
 				name = FKR_royal_society_faction
 				icon = GFX_faction_logo_generic_4
 			}
@@ -4212,7 +4212,7 @@ focus_tree = {
 			}
 			add_ideas = FKR_asia_communism_idea
 			create_faction_from_template = {
-				template = faction_template_world_revolution
+				template = faction_template_FKR_asia_communism_faction
 				name = FKR_asia_communism_faction
 				icon = GFX_faction_logo_generic_14
 			}
@@ -4421,7 +4421,7 @@ focus_tree = {
 					}
 				}
 				create_faction_from_template = {
-					template = faction_template_world_revolution
+					template = faction_template_FKR_asia_communism_faction
 					name = FKR_asia_communism_faction
 					icon = GFX_faction_logo_generic_14
 				}

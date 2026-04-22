@@ -417,14 +417,22 @@ country_event = { # Ask join royal Faction (FRA)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -529,14 +537,22 @@ country_event = { # Ask join royal Faction (ITA)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -609,14 +625,21 @@ country_event = { # Ask join royal Faction (ENG)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
-			}
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -705,14 +728,22 @@ country_event = { # Ask join royal Faction (SOV)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -797,14 +828,22 @@ country_event = { # Ask join royal Faction (GER)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -896,14 +935,22 @@ country_event = { # Ask join royal Faction (SIA)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -976,14 +1023,22 @@ country_event = { # Ask join royal Faction (TUR)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -1069,14 +1124,22 @@ country_event = { # Ask join royal Faction (PER)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -1149,14 +1212,22 @@ country_event = { # Ask join royal Faction (JAP)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -1224,14 +1295,22 @@ country_event = { # Ask join royal Faction (MAN)
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -3167,14 +3246,22 @@ country_event = { # Austria event
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -3285,14 +3372,22 @@ country_event = { # Hungary Event
 					is_in_faction = yes
 				}
 				remove_from_faction = FKR
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
 			if = {
 				limit = {
 					is_faction_leader = no
 					is_in_faction = no
 				}
-				create_faction = FKR_royal_society_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_royal_society_faction
+					name = FKR_royal_society_faction
+					icon = GFX_faction_logo_generic_4
+				}
 			}
             if = {
 				limit = {
@@ -3647,7 +3742,12 @@ country_event = {
 						}
 					}
 					FKR = {
-						create_faction = FKR_return_of_emperor_faction
+						create_faction_from_template = {
+							template = faction_template_FKR_return_of_emperor_faction
+							name = FKR_return_of_emperor_faction
+							icon = GFX_faction_logo_generic_fascist
+						}
+
 						add_to_faction = MEX
 					}
 				}
@@ -3727,7 +3827,12 @@ country_event = { # Suggestion from east asia
 				}
 			}
 			FKR = {
-				create_faction = FKR_return_of_emperor_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_return_of_emperor_faction
+					name = FKR_return_of_emperor_faction
+					icon = GFX_faction_logo_generic_fascist
+				}
+
 				add_to_faction = MEX
 			}
 		}
@@ -3980,7 +4085,11 @@ country_event = { # Invite from korea (PRC)
 		}
 		else = {
 			FKR = {
-				create_faction = FKR_asia_communism_faction
+				create_faction_from_template = {
+					template = faction_template_FKR_asia_communism_faction
+					name = FKR_asia_communism_faction
+					icon = GFX_faction_logo_generic_14
+				}
 				add_to_faction = PRC
 			}
 		}
@@ -4139,12 +4248,20 @@ country_event = { # Ask to Portugal for spain monarchy
 					}
 				}
 				FKR = {
-					create_faction = FKR_return_of_emperor_faction
+					create_faction_from_template = {
+						template = faction_template_FKR_return_of_emperor_faction
+						name = FKR_return_of_emperor_faction
+						icon = GFX_faction_logo_generic_fascist
+					}
 				}
 			}
 			else = {
 				FKR = {
-					create_faction = FKR_royal_society_faction
+					create_faction_from_template = {
+						template = faction_template_FKR_royal_society_faction
+						name = FKR_royal_society_faction
+						icon = GFX_faction_logo_generic_4
+					}
 				}
 			}
 			FKR = {
@@ -4368,10 +4485,18 @@ country_event = {
 						limit = {
 							has_government = fascism
 						}
-						create_faction = FKR_return_of_emperor_faction
+						create_faction_from_template = {
+							template = faction_template_FKR_return_of_emperor_faction
+							name = FKR_return_of_emperor_faction
+							icon = GFX_faction_logo_generic_fascist
+						}
 					}
 					else = {
-						create_faction = FKR_royal_society_faction
+						create_faction_from_template = {
+							template = faction_template_FKR_royal_society_faction
+							name = FKR_royal_society_faction
+							icon = GFX_faction_logo_generic_4
+						}
 					}
 					add_to_faction = PREV
 				}
