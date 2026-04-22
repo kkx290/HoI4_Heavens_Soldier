@@ -11,5 +11,5 @@ tags={
 }
 name="Korea - The Heavens Soldiers [Official Version]"
 picture="thumbnail.png"
-supported_version="1.17.*"
+supported_version="1.18.*"
 remote_file_id="2315848888"
