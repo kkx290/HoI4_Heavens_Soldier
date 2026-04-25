@@ -989,6 +989,43 @@ ideas = {
 			}
 		}
 
+		hanwha_ocean = {
+			picture = fkr_company_hanwha
+			allowed = {
+				original_tag = FKR
+			}
+			available = {
+				has_completed_focus = FKR_naval_company
+			}
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { pacific_fleet_naval_manufacturer }
+
+			equipment_bonus = {
+				carrier = {
+					build_cost_ic = -0.25
+					reliability  = 0.2
+					carrier_size = 1
+				}
+				light_cruiser = {
+					build_cost_ic = -0.25
+					reliability  = 0.2
+				}
+				heavy_cruiser = {
+					build_cost_ic = -0.25
+					reliability  = 0.2
+				}
+				destroyer = {
+					build_cost_ic = -0.10
+					reliability  = 0.1
+					naval_speed = 0.1
+					lg_attack = 0.2
+				}
+			}
+		}
+
 	}
 	
 	aircraft_manufacturer = {

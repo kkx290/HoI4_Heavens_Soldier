@@ -120,9 +120,31 @@ FKR_ssanyong_heavy_industry = {
 		equipment_bonus = {
 			build_cost_ic = -0.1
 			reliability  = 0.1
-			carrier_size = 0.1
 			naval_speed = 0.2
 			torpedo_attack = 0.2
+		}
+	}
+}
+
+FKR_Hanwha_Ocean = {
+	include = generic_task_force_ship_organization
+	icon = GFX_idea_fkr_company_hanwha
+	allowed = {	
+		original_tag = FKR
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+		owner = {
+			has_completed_focus = FKR_naval_company
+		}
+	}
+	research_bonus = 0.10
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability  = 0.1
+			naval_speed = 0.1
+			lg_attack = 0.2
 		}
 	}
 }
@@ -316,6 +338,26 @@ FKR_hanwha_industry = {
 		}
 	}
 } 
+
+FKR_lg_innotek = {
+	include = generic_support_equipment_organization
+	icon = GFX_idea_fkr_company_lg_innotek
+	allowed = {	
+		original_tag = FKR
+		has_dlc = "Arms Against Tyranny"
+	}
+	available = {
+		owner = {
+			has_completed_focus = FKR_materiel_company
+		}
+	}
+	initial_trait = {
+		equipment_bonus = {
+			build_cost_ic = -0.25
+			reliability = 0.1
+		}
+	}
+}
 
 FKR_imperial_arsenal = {
 	include = generic_artillery_organization

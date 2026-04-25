@@ -68,6 +68,7 @@
 
  daewoo_shipbuilding_marine_engineering:0 "대우 조선 해양"
  ssanyong_heavy_industry:0 "쌍용 중공업"
+ hanwha_ocean:0 "한화 오션"
  korean_air:0 "대한 항공"
  asiana_airlines:0 "아시아나 항공"
  daewoo_heavy_industry:0 "대우 중공업"
@@ -87,6 +88,7 @@
 
  FKR_daewoo_shipbuilding_marine_engineering:0 "대우 조선 해양"
  FKR_ssanyong_heavy_industry:0 "쌍용 중공업"
+ FKR_Hanwha_Ocean:0 "한화 오션"
  FKR_korean_air:0 "대한 항공"
  FKR_asiana_airlines:0 "아시아나 항공"
  FKR_daewoo_heavy_industry:0 "대우 중공업"
