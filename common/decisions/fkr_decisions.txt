@@ -1193,7 +1193,7 @@ prospect_for_resources = {
 		}	
 	}
 
-	FKR_develop_sector_7_oil_deposits = { #1049
+	FKR_develop_sector_7_oil_deposits = { #1084
 		
 		icon = oil
 
@@ -1205,13 +1205,13 @@ prospect_for_resources = {
 			has_tech = excavation2
 		}
 		highlight_states = {
-			state = 1049
+			state = 1084
 		}
 
 		visible = {
 			has_completed_focus = FKR_sector_7
-			controls_state = 1049
-			1049 = {
+			controls_state = 1084
+			1084 = {
 				NOT = {
 					has_state_flag = sector_7_oil_developed
 				}
@@ -1231,8 +1231,8 @@ prospect_for_resources = {
 			factor = 1
 		}
 		remove_effect = { 
-			1049 = { set_state_flag = sector_7_oil_developed } 
-			1049 = {
+			1084 = { set_state_flag = sector_7_oil_developed } 
+			1084 = {
 				add_resource = {
 					type = oil
 					amount = 72

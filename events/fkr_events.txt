@@ -422,6 +422,12 @@ country_event = { # Ask join royal Faction (FRA)
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -432,6 +438,12 @@ country_event = { # Ask join royal Faction (FRA)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -542,6 +554,12 @@ country_event = { # Ask join royal Faction (ITA)
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -552,6 +570,12 @@ country_event = { # Ask join royal Faction (ITA)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -629,7 +653,14 @@ country_event = { # Ask join royal Faction (ENG)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
-				}			}
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
+			}
 			if = {
 				limit = {
 					is_faction_leader = no
@@ -639,6 +670,12 @@ country_event = { # Ask join royal Faction (ENG)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -733,6 +770,12 @@ country_event = { # Ask join royal Faction (SOV)
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -743,6 +786,12 @@ country_event = { # Ask join royal Faction (SOV)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -833,6 +882,12 @@ country_event = { # Ask join royal Faction (GER)
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -843,6 +898,12 @@ country_event = { # Ask join royal Faction (GER)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -940,6 +1001,12 @@ country_event = { # Ask join royal Faction (SIA)
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -950,6 +1017,12 @@ country_event = { # Ask join royal Faction (SIA)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -1028,6 +1101,12 @@ country_event = { # Ask join royal Faction (TUR)
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -1038,6 +1117,12 @@ country_event = { # Ask join royal Faction (TUR)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -1129,6 +1214,12 @@ country_event = { # Ask join royal Faction (PER)
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -1139,6 +1230,12 @@ country_event = { # Ask join royal Faction (PER)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -1217,6 +1314,12 @@ country_event = { # Ask join royal Faction (JAP)
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -1227,6 +1330,12 @@ country_event = { # Ask join royal Faction (JAP)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -1300,6 +1409,12 @@ country_event = { # Ask join royal Faction (MAN)
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -1310,6 +1425,12 @@ country_event = { # Ask join royal Faction (MAN)
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -3251,6 +3372,12 @@ country_event = { # Austria event
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -3261,6 +3388,12 @@ country_event = { # Austria event
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -3377,6 +3510,12 @@ country_event = { # Hungary Event
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -3387,6 +3526,12 @@ country_event = { # Hungary Event
 					template = faction_template_FKR_royal_society_faction
 					name = FKR_royal_society_faction
 					icon = GFX_faction_logo_generic_4
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 			}
             if = {
@@ -3747,6 +3892,12 @@ country_event = {
 							name = FKR_return_of_emperor_faction
 							icon = GFX_faction_logo_generic_fascist
 						}
+						hidden_effect = {
+							add_faction_goal_slot = {
+								category  = short_term
+								value = 1 
+							}
+						}
 
 						add_to_faction = MEX
 					}
@@ -3831,6 +3982,12 @@ country_event = { # Suggestion from east asia
 					template = faction_template_FKR_return_of_emperor_faction
 					name = FKR_return_of_emperor_faction
 					icon = GFX_faction_logo_generic_fascist
+				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
 				}
 
 				add_to_faction = MEX
@@ -4090,6 +4247,12 @@ country_event = { # Invite from korea (PRC)
 					name = FKR_asia_communism_faction
 					icon = GFX_faction_logo_generic_14
 				}
+				hidden_effect = {
+					add_faction_goal_slot = {
+						category  = short_term
+						value = 1 
+					}
+				}
 				add_to_faction = PRC
 			}
 		}
@@ -4253,6 +4416,12 @@ country_event = { # Ask to Portugal for spain monarchy
 						name = FKR_return_of_emperor_faction
 						icon = GFX_faction_logo_generic_fascist
 					}
+					hidden_effect = {
+						add_faction_goal_slot = {
+							category  = short_term
+							value = 1 
+						}
+					}
 				}
 			}
 			else = {
@@ -4261,6 +4430,12 @@ country_event = { # Ask to Portugal for spain monarchy
 						template = faction_template_FKR_royal_society_faction
 						name = FKR_royal_society_faction
 						icon = GFX_faction_logo_generic_4
+					}
+					hidden_effect = {
+						add_faction_goal_slot = {
+							category  = short_term
+							value = 1 
+						}
 					}
 				}
 			}
@@ -4490,12 +4665,24 @@ country_event = {
 							name = FKR_return_of_emperor_faction
 							icon = GFX_faction_logo_generic_fascist
 						}
+						hidden_effect = {
+							add_faction_goal_slot = {
+								category  = short_term
+								value = 1 
+							}
+						}
 					}
 					else = {
 						create_faction_from_template = {
 							template = faction_template_FKR_royal_society_faction
 							name = FKR_royal_society_faction
 							icon = GFX_faction_logo_generic_4
+						}
+						hidden_effect = {
+							add_faction_goal_slot = {
+								category  = short_term
+								value = 1 
+							}
 						}
 					}
 					add_to_faction = PREV

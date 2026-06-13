@@ -1,9 +1,8 @@
 state={
-	id=1047
-	name="STATE_CHUNGCHEONG"
-	
+	id=1083
+	name="STATE_HWANGHAE"
 	resources={
-		coal = 9.000
+		aluminium=5.000
 	}
 
 	history={
@@ -11,23 +10,23 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+			arms_factory = 1
 
 		}
 		victory_points = {
-			13385 5 
+			10065 5
 		}
 		victory_points = {
-			13386 3 
+			1003 3
 		}
 		add_core_of = KOR
 
 	}
-
 	provinces={
-		1100 7175 7204 11992 13384 13385 13386 
+		1003 4107 7070 7155 10065 11915 
 	}
-	manpower=2390018
+	manpower=1639250
 	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.0 
+	state_category=city
+	local_supplies=0.000
 }

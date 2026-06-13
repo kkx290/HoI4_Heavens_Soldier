@@ -10,9 +10,10 @@ on_actions = {
 						state = 1029
 						state = 1030
 						state = 1031
-						state = 1047
-						state = 1048
-						state = 1049
+						state = 1082
+						state = 1083
+						state = 1084
+						state = 1085
 					}
 					NOT = {
 						has_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
@@ -41,9 +42,10 @@ on_actions = {
 							state = 1029
 							state = 1030
 							state = 1031
-							state = 1047
-							state = 1048
-							state = 1049
+							state = 1082
+							state = 1083
+							state = 1084
+							state = 1085
 						}
 						has_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
 					}
@@ -73,9 +75,10 @@ on_actions = {
 							state = 1029
 							state = 1030
 							state = 1031
-							state = 1047
-							state = 1048
-							state = 1049
+							state = 1082
+							state = 1083
+							state = 1084
+							state = 1085
 						}
 						has_dynamic_modifier = { modifier = KOR_resistance_against_colonial_rule_dm }
 					}

@@ -18,6 +18,7 @@ intelligence_agency = {
 	default = { tag = FKR }
 	available = { original_tag = FKR }
 }
+
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_usa
@@ -420,7 +421,7 @@ intelligence_agency = {
 
 intelligence_agency = {
 	
-	picture = GFX_agency_logo_eth_fetno_derash
+	picture = GFX_intelligence_agency_logo_eth_fetno_derash
 	names = { fetno_derash arbegnoch }
 	
 	default = { 
@@ -603,14 +604,27 @@ intelligence_agency = {
 }
 
 intelligence_agency = {
-	
+
+	picture = GFX_intelligence_agency_logo_AST_investigation_branch
+	names = { "The Investigation Branch" }
+
+	default = {
+		original_tag = AST
+	}
+	available = {
+		original_tag = AST
+	}
+}
+
+intelligence_agency = {
+
 	picture = GFX_intelligence_agency_logo_AUS_evidenzbureau
 	names = { "Evidenzbureau" }
-	
-	default = { 
+
+	default = {
 		tag = AUS
-	} 
-	available = { 
+	}
+	available = {
 		original_tag = AUS
 	}
 }
@@ -759,6 +773,16 @@ intelligence_agency = {
 		original_tag = PER 
 		NOT = { has_government = communism }
 	}
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_cze
+	names = { "2. oddelení Hl. štábu" }	#technically ě but the font doesn't support that
+	
+	available = { always = yes }
+	
+	default = { tag = CZE }
+	available = { original_tag = CZE }
 }
 
 intelligence_agency = {

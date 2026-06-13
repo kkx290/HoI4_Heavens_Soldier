@@ -1,5 +1,5 @@
 state={
-	id=1049
+	id=1084
 	name="STATE_JEJU"
 	provinces={
 		1177 

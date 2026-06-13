@@ -1,4 +1,4 @@
-﻿capital = 1049 #Jeju Island
+﻿capital = 1084 #Jeju Island
 
 oob = "FKR_1936"
 
