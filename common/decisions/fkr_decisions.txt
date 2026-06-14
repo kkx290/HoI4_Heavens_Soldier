@@ -3584,6 +3584,76 @@ FKR_strat_ops_command = {
         }
 	}
 
+	FKR_add_special_forces_1_mastery_training = {
+		icon = generic_intelligence_operation
+		allowed = {
+			original_tag = FKR
+		}
+
+		days_remove = 60
+		
+
+		available = {
+			has_army_experience > 44
+			has_air_experience > 44
+			NOT = { has_completed_track = special_forces_first }
+		}
+
+
+		visible = {
+			has_completed_focus = FKR_additional_army_doc
+			has_completed_focus = FKR_additional_navy_doc
+			has_completed_focus =  FKR_additional_airforce_doc
+			has_subdoctrine_in_track = special_forces_first
+			NOT = { has_completed_track = special_forces_first }
+		}
+
+
+		complete_effect = {
+            		army_experience = -45
+           		air_experience = -45
+			add_mastery = {
+				amount = 50
+				track = special_forces_first
+			}
+        }
+	}
+
+	FKR_add_special_forces_2_mastery_training = {
+		icon = generic_intelligence_operation
+		allowed = {
+			original_tag = FKR
+		}
+
+		days_remove = 60
+		
+
+		available = {
+			has_army_experience > 44
+			has_air_experience > 44
+			NOT = { has_completed_track = special_forces_second }
+		}
+
+
+		visible = {
+			has_completed_focus = FKR_additional_army_doc
+			has_completed_focus = FKR_additional_navy_doc
+			has_completed_focus =  FKR_additional_airforce_doc
+			has_subdoctrine_in_track = special_forces_second
+			NOT = { has_completed_track = special_forces_second }
+		}
+
+
+		complete_effect = {
+            		army_experience = -45
+           		air_experience = -45
+			add_mastery = {
+				amount = 50
+				track = special_forces_second
+			}
+        }
+	}
+
 	FKR_develop_mustartd_gas = {
 		icon = generic_army_support
 

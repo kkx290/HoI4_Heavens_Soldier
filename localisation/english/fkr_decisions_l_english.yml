@@ -145,6 +145,8 @@ FKR_add_air_doc_fighter_mastery_training:0 "Fighter Aircraft Doctrine Additional
 FKR_add_air_doc_strike_mastery_training:0 "Strike Aircraft Doctrine Additional Development"
 FKR_add_air_doc_medium_mastery_training:0 "Medium Aircraft Doctrine Additional Development"
 FKR_add_air_doc_heavy_mastery_training:0 "Heavy Aircraft Doctrine Additional Development"
+FKR_add_special_forces_1_mastery_training:0 "Special Forces Doctrine Additional Development First"
+FKR_add_special_forces_2_mastery_training:0 "Special Forces Doctrine Additional Development Second"
 FKR_develop_mustartd_gas:0 "Develop Mustard Gas"
 FKR_make_mustard_gas:0 "Produce Mustard Gas Shells"
 FKR_using_mustard_gas:0 "Use Mustard Gas Shells"
